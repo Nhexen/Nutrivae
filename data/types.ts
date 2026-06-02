@@ -85,8 +85,8 @@ export interface Ingredient {
   formLabel: string;
   // Bloc définition — encyclopédique.
   definition: string[];
-  // Provenance de la définition (pour l'attribution, ex. extrait Wikipédia).
-  definitionSource?: "wikipedia";
+  // Provenance de la définition (pour l'attribution).
+  definitionSource?: "wikipedia" | "pubchem";
   // Bloc composition / rôle.
   role: string[];
   foundIn: string[];

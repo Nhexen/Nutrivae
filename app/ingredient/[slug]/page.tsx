@@ -268,6 +268,16 @@ export default async function IngredientPage({
                   Définition d&apos;après Wikipédia (CC BY-SA) ↗
                 </a>
               )}
+              {ingredient.definitionSource === "pubchem" && (
+                <a
+                  href={external.pubchem?.url ?? "https://pubchem.ncbi.nlm.nih.gov/"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex items-center gap-1 text-[0.74rem] font-medium text-muted hover:text-brand-deep"
+                >
+                  Description d&apos;après PubChem (NCBI), traduite ↗
+                </a>
+              )}
 
               <div className="mt-4 flex flex-wrap gap-2">
                 {ingredient.domains.map((d) => (

@@ -58,9 +58,13 @@ npm run ingest:additives   # → data/additives.generated.json (versionné)
 - **V3 — définitions étoffées** : extraits **Wikipédia FR** récupérés en lot via
   l'API MediaWiki (redirections suivies), ~294/466 enrichis, avec attribution
   CC BY-SA. Repli honnête (« notice en cours ») pour le reste.
-- **V3 — statuts réglementaires curatés** : interdits (E171, E128, E216/217,
-  E240, E924…) et restreints (E123, nitrites/nitrates E249–252, E425…) avec
-  motif et surlignage de risque. États physiques curatés pour les cas connus.
+- **Statuts réglementaires** : combinaison d'une liste **curatée vérifiée** et du
+  **parsing de la liste Wikipédia des E-numbers** (qui cite le règlement 1333/2008
+  et ses amendements) → ~20 interdits + restreints, avec motif et surlignage.
+- **Descriptions** : Wikipédia FR (~294) ; pour les additifs sans article,
+  descriptions **PubChem (PUG-View)** triées et traduites en français (~30,
+  `npm run` → `scripts/fetch-pubchem-desc.mjs` + `data/descriptions.fr.json`) ;
+  le reste a une définition templatée précise. États physiques curatés.
 - Les E-numbers déjà curatés à la main (E330, E951, E211, E422, E322) priment.
 - Au seed, la couche DB **fusionne** additifs ingérés + entrées curatées.
 - Pré-rendu au build limité aux entrées curatées ; les autres fiches en **ISR**.

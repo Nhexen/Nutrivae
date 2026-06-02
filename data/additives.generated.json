@@ -782,13 +782,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Acétates de potassium (E261) est un additif alimentaire (conservateur), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "L'acétate de potassium est le sel de potassium de l'acide acétique.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Acétates de potassium (E261) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Conservateur ».",
-      "Sa fonction technologique relève de la catégorie « conservateur ». Les données présentées proviennent des bases publiques de référence."
+      "L'acétate de potassium est le sel de potassium de l'acide acétique. Il est utilisé comme régulateur d'acidité dans les aliments."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : conservateur."
     ],
@@ -1552,13 +1552,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Acide déhydracétique (E265) est un additif alimentaire (additif alimentaire), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "L'acide déhydracétique est un agent fongicide et bactéricide, employé principalement pour conserver les fruits et légumes transformés.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Acide déhydracétique (E265) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
-      "Sa fonction technologique relève de la catégorie « additif alimentaire ». Les données présentées proviennent des bases publiques de référence."
+      "L'acide déhydracétique est un agent fongicide et bactéricide, employé principalement pour conserver les fruits et légumes transformés."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : additif alimentaire."
     ],
@@ -1931,13 +1931,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Acide glycyrrhizique et sels (E958) est un additif alimentaire (édulcorant), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "L'acide glycyrrhizique est un composé naturel extrait de la racine de réglisse, au fort pouvoir sucrant.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Acide glycyrrhizique et sels (E958) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Édulcorant ».",
-      "Sa fonction technologique relève de la catégorie « édulcorant ». Les données présentées proviennent des bases publiques de référence."
+      "L'acide glycyrrhizique est un composé naturel extrait de la racine de réglisse, au fort pouvoir sucrant. Il sert d'arôme et d'édulcorant."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : édulcorant."
     ],
@@ -3939,13 +3939,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Alphatocophérol (E307) est un additif alimentaire (additif alimentaire), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "L'alpha-tocophérol est la forme naturelle de la vitamine E, présente notamment dans les huiles de tournesol et d'olive.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Alphatocophérol (E307) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
-      "Sa fonction technologique relève de la catégorie « additif alimentaire ». Les données présentées proviennent des bases publiques de référence."
+      "L'alpha-tocophérol est la forme naturelle de la vitamine E, présente notamment dans les huiles de tournesol et d'olive. Il est utilisé comme antioxydant."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : additif alimentaire."
     ],
@@ -5067,13 +5067,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Arginate d'éthyle laurique (E243) est un additif alimentaire (conservateur), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "Le laurate d'éthyl-arginate est un tensioactif aux propriétés antimicrobiennes, utilisé comme conservateur.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Arginate d'éthyle laurique (E243) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Conservateur ».",
-      "Sa fonction technologique relève de la catégorie « conservateur ». Les données présentées proviennent des bases publiques de référence."
+      "Le laurate d'éthyl-arginate est un tensioactif aux propriétés antimicrobiennes, utilisé comme conservateur."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : conservateur."
     ],
@@ -5446,13 +5446,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Azorubine carmoisine (E122) est un additif alimentaire (colorant), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "L'azorubine (ou carmoisine) est un colorant azoïque de couleur rouge, utilisé pour colorer certains aliments et boissons.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Azorubine carmoisine (E122) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Colorant ».",
-      "Sa fonction technologique relève de la catégorie « colorant ». Les données présentées proviennent des bases publiques de référence."
+      "L'azorubine (ou carmoisine) est un colorant azoïque de couleur rouge, utilisé pour colorer certains aliments et boissons."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : colorant."
     ],
@@ -5569,10 +5569,10 @@
       "Additif alimentaire",
       "Additif alimentaire"
     ],
-    "status": "Additif alimentaire autorisé dans l'Union européenne.",
+    "status": "Retiré de la liste des additifs autorisés dans l'UE (règlement (UE) 380/2012).",
     "summary": "Bentonite (E558) — additif alimentaire, additif alimentaire.",
-    "regulatoryStatus": "autorise",
-    "controversy": "aucune",
+    "regulatoryStatus": "interdit",
+    "controversy": "controverse",
     "contraindications": [],
     "plain": "La bentonite est une argile colloïdale dont le nom vient de Fort Benton dans le Wyoming aux États-Unis.",
     "form": "indetermine",
@@ -5588,7 +5588,7 @@
     "regulation": [
       {
         "label": "Statut UE",
-        "value": "Autorisé"
+        "value": "Interdit"
       },
       {
         "label": "Numéro E",
@@ -5597,6 +5597,11 @@
       {
         "label": "Classe(s)",
         "value": "Additif alimentaire"
+      },
+      {
+        "label": "Interdiction",
+        "value": "Retiré de la liste des additifs autorisés dans l'UE (règlement (UE) 380/2012).",
+        "risk": "danger"
       }
     ],
     "compatibility": {
@@ -5829,10 +5834,10 @@
       "Additif alimentaire",
       "Conservateur"
     ],
-    "status": "Additif alimentaire autorisé dans l'Union européenne.",
+    "status": "Non autorisé comme additif alimentaire dans l'Union européenne.",
     "summary": "Biphényle (E230) — additif alimentaire, conservateur.",
-    "regulatoryStatus": "autorise",
-    "controversy": "aucune",
+    "regulatoryStatus": "interdit",
+    "controversy": "controverse",
     "contraindications": [],
     "plain": "Le biphényle (également nommé 1,1-biphényle, diphényle et phénylbenzène) est un hydrocarbure aromatique de formule brute C12H10. Il se présente sous la forme d'un solide cristallin incolore.",
     "form": "indetermine",
@@ -5848,7 +5853,7 @@
     "regulation": [
       {
         "label": "Statut UE",
-        "value": "Autorisé"
+        "value": "Interdit"
       },
       {
         "label": "Numéro E",
@@ -5857,6 +5862,11 @@
       {
         "label": "Classe(s)",
         "value": "Conservateur"
+      },
+      {
+        "label": "Interdiction",
+        "value": "Non autorisé comme additif alimentaire dans l'Union européenne.",
+        "risk": "danger"
       }
     ],
     "compatibility": {
@@ -6346,10 +6356,10 @@
       "Additif alimentaire",
       "Additif alimentaire"
     ],
-    "status": "Additif alimentaire autorisé dans l'Union européenne.",
+    "status": "Autorisation retirée dans l'Union européenne (2011).",
     "summary": "Brun FK (E154) — additif alimentaire, additif alimentaire.",
-    "regulatoryStatus": "autorise",
-    "controversy": "aucune",
+    "regulatoryStatus": "interdit",
+    "controversy": "controverse",
     "contraindications": [],
     "plain": "Le brun FK, ou E154, est un mélange de six colorants azoïques synthétiques dérivé du naphtalène.",
     "form": "indetermine",
@@ -6365,7 +6375,7 @@
     "regulation": [
       {
         "label": "Statut UE",
-        "value": "Autorisé"
+        "value": "Interdit"
       },
       {
         "label": "Numéro E",
@@ -6374,6 +6384,11 @@
       {
         "label": "Classe(s)",
         "value": "Additif alimentaire"
+      },
+      {
+        "label": "Interdiction",
+        "value": "Autorisation retirée dans l'Union européenne (2011).",
+        "risk": "danger"
       },
       {
         "label": "Évaluation EFSA",
@@ -8887,13 +8902,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "citrate ferrique d'ammonium (E381) est un additif alimentaire (additif alimentaire), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "Le citrate ferrique d'ammonium est un solide brun-rouge soluble dans l'eau, à légère odeur d'ammoniac.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "citrate ferrique d'ammonium (E381) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
-      "Sa fonction technologique relève de la catégorie « additif alimentaire ». Les données présentées proviennent des bases publiques de référence."
+      "Le citrate ferrique d'ammonium est un solide brun-rouge soluble dans l'eau, à légère odeur d'ammoniac. Il sert de source de fer et d'antiagglomérant."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : additif alimentaire."
     ],
@@ -9008,13 +9023,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Citrates de calcium (E333) est un additif alimentaire (séquestrant · stabilisant), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "Le citrate de calcium est le sel de calcium de l'acide citrique.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Citrates de calcium (E333) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Séquestrant · Stabilisant ».",
-      "Sa fonction technologique relève de la catégorie « séquestrant · stabilisant ». Les données présentées proviennent des bases publiques de référence."
+      "Le citrate de calcium est le sel de calcium de l'acide citrique. Il est utilisé comme régulateur d'acidité, agent de fermeté et source de calcium."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : séquestrant · stabilisant."
     ],
@@ -9813,13 +9828,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Delta-tocophérol de synthèse (E309) est un additif alimentaire (additif alimentaire), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "Le delta-tocophérol est une forme de vitamine E présente notamment dans les huiles de maïs et de soja.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Delta-tocophérol de synthèse (E309) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
-      "Sa fonction technologique relève de la catégorie « additif alimentaire ». Les données présentées proviennent des bases publiques de référence."
+      "Le delta-tocophérol est une forme de vitamine E présente notamment dans les huiles de maïs et de soja. Il est utilisé comme antioxydant."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : additif alimentaire."
     ],
@@ -9938,13 +9953,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Dérivé sodique du 4-hydroxybenzoate de méthyle (E219) est un additif alimentaire (additif alimentaire), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "Le méthylparabène sodique est le sel de sodium du méthylparabène, un conservateur de la famille des parabènes.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Dérivé sodique du 4-hydroxybenzoate de méthyle (E219) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
-      "Sa fonction technologique relève de la catégorie « additif alimentaire ». Les données présentées proviennent des bases publiques de référence."
+      "Le méthylparabène sodique est le sel de sodium du méthylparabène, un conservateur de la famille des parabènes."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : additif alimentaire."
     ],
@@ -12256,13 +12271,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Éthylène diamine tétra-acétate de calcium disodium (E385) est un additif alimentaire (antioxydant · conservateur · séquestrant), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "L'EDTA calcium disodium est un agent chélatant : il piège les ions métalliques pour stabiliser et préserver les aliments.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Éthylène diamine tétra-acétate de calcium disodium (E385) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Antioxydant · Conservateur · Séquestrant ».",
-      "Sa fonction technologique relève de la catégorie « antioxydant · conservateur · séquestrant ». Les données présentées proviennent des bases publiques de référence."
+      "L'EDTA calcium disodium est un agent chélatant : il piège les ions métalliques pour stabiliser et préserver les aliments."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : antioxydant · conservateur · séquestrant."
     ],
@@ -12379,13 +12394,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Étoxyquine (E324) est un additif alimentaire (additif alimentaire), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "L'éthoxyquine est un liquide visqueux jaune à brun, utilisé comme antioxydant (conservateur), notamment dans les aliments pour animaux.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Étoxyquine (E324) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
-      "Sa fonction technologique relève de la catégorie « additif alimentaire ». Les données présentées proviennent des bases publiques de référence."
+      "L'éthoxyquine est un liquide visqueux jaune à brun, utilisé comme antioxydant (conservateur), notamment dans les aliments pour animaux."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : additif alimentaire."
     ],
@@ -15015,13 +15030,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Glycole de propylène (E490) est un additif alimentaire (additif alimentaire), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "Le propylène glycol est un liquide de synthèse incolore et quasi inodore, qui retient l'eau.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Glycole de propylène (E490) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
-      "Sa fonction technologique relève de la catégorie « additif alimentaire ». Les données présentées proviennent des bases publiques de référence."
+      "Le propylène glycol est un liquide de synthèse incolore et quasi inodore, qui retient l'eau. Il sert de solvant pour arômes et colorants et d'humectant ; il est reconnu comme sûr pour l'alimentation par la FDA."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : additif alimentaire."
     ],
@@ -16460,13 +16475,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Héxylresorcinol (E586) est un additif alimentaire (additif alimentaire), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "L'hexylrésorcinol se présente en liquide visqueux jaune pâle ou en poudre.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Héxylresorcinol (E586) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
-      "Sa fonction technologique relève de la catégorie « additif alimentaire ». Les données présentées proviennent des bases publiques de référence."
+      "L'hexylrésorcinol se présente en liquide visqueux jaune pâle ou en poudre. Il possède des propriétés antiseptiques et antioxydantes."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : additif alimentaire."
     ],
@@ -16831,13 +16846,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Hydroxybenzoate d'hépthyle (E209) est un additif alimentaire (additif alimentaire), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "L'hydroxybenzoate d'heptyle est un ester de l'acide para-hydroxybenzoïque, de la famille des parabènes, utilisé comme conservateur.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Hydroxybenzoate d'hépthyle (E209) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
-      "Sa fonction technologique relève de la catégorie « additif alimentaire ». Les données présentées proviennent des bases publiques de référence."
+      "L'hydroxybenzoate d'heptyle est un ester de l'acide para-hydroxybenzoïque, de la famille des parabènes, utilisé comme conservateur."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : additif alimentaire."
     ],
@@ -17329,13 +17344,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Indigotine carmin d'indigo (E132) est un additif alimentaire (colorant), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "L'indigotine (carmin d'indigo) est un colorant bleu utilisé en alimentation ; c'est aussi un indicateur coloré employé en chimie.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Indigotine carmin d'indigo (E132) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Colorant ».",
-      "Sa fonction technologique relève de la catégorie « colorant ». Les données présentées proviennent des bases publiques de référence."
+      "L'indigotine (carmin d'indigo) est un colorant bleu utilisé en alimentation ; c'est aussi un indicateur coloré employé en chimie."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : colorant."
     ],
@@ -18267,13 +18282,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "L-Cystéine et ses chlorhydrates (E920) est un additif alimentaire (additif alimentaire), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "La L-cystéine est un acide aminé naturel. En boulangerie, elle sert d'agent de traitement de la farine pour assouplir la pâte.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "L-Cystéine et ses chlorhydrates (E920) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
-      "Sa fonction technologique relève de la catégorie « additif alimentaire ». Les données présentées proviennent des bases publiques de référence."
+      "La L-cystéine est un acide aminé naturel. En boulangerie, elle sert d'agent de traitement de la farine pour assouplir la pâte."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : additif alimentaire."
     ],
@@ -18390,13 +18405,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Lactate d'ammonium (E328) est un additif alimentaire (additif alimentaire), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "Le lactate d'ammonium est le sel d'ammonium de l'acide lactique, inodore et soluble dans l'eau.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Lactate d'ammonium (E328) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
-      "Sa fonction technologique relève de la catégorie « additif alimentaire ». Les données présentées proviennent des bases publiques de référence."
+      "Le lactate d'ammonium est le sel d'ammonium de l'acide lactique, inodore et soluble dans l'eau. Il sert de régulateur d'acidité."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : additif alimentaire."
     ],
@@ -21439,10 +21454,10 @@
       "Additif alimentaire",
       "Conservateur"
     ],
-    "status": "Additif alimentaire autorisé dans l'Union européenne.",
+    "status": "Non autorisé comme additif alimentaire dans l'Union européenne.",
     "summary": "Orthophénylphénate de sodium (E232) — additif alimentaire, conservateur.",
-    "regulatoryStatus": "autorise",
-    "controversy": "aucune",
+    "regulatoryStatus": "interdit",
+    "controversy": "controverse",
     "contraindications": [],
     "plain": "L'orthophénylphénate (ou orthophénylphénolate) de sodium (sel sodique du 2-phénylphénol) est un conservateur utilisé pour traiter la surface des agrumes afin de prolonger leur durée de conservation.",
     "form": "indetermine",
@@ -21458,7 +21473,7 @@
     "regulation": [
       {
         "label": "Statut UE",
-        "value": "Autorisé"
+        "value": "Interdit"
       },
       {
         "label": "Numéro E",
@@ -21467,6 +21482,11 @@
       {
         "label": "Classe(s)",
         "value": "Conservateur"
+      },
+      {
+        "label": "Interdiction",
+        "value": "Non autorisé comme additif alimentaire dans l'Union européenne.",
+        "risk": "danger"
       }
     ],
     "compatibility": {
@@ -21501,10 +21521,10 @@
       "Additif alimentaire",
       "Conservateur"
     ],
-    "status": "Additif alimentaire autorisé dans l'Union européenne.",
+    "status": "Non autorisé comme additif alimentaire dans l'Union européenne.",
     "summary": "Orthophénylphénol (E231) — additif alimentaire, conservateur.",
-    "regulatoryStatus": "autorise",
-    "controversy": "aucune",
+    "regulatoryStatus": "interdit",
+    "controversy": "controverse",
     "contraindications": [],
     "plain": "Le 2-phénylphénol ou biphényl-2-ol, est un composé organique constitué de deux cycles liés de benzène et un groupe hydroxyle phénolique.",
     "form": "indetermine",
@@ -21520,7 +21540,7 @@
     "regulation": [
       {
         "label": "Statut UE",
-        "value": "Autorisé"
+        "value": "Interdit"
       },
       {
         "label": "Numéro E",
@@ -21529,6 +21549,11 @@
       {
         "label": "Classe(s)",
         "value": "Conservateur"
+      },
+      {
+        "label": "Interdiction",
+        "value": "Non autorisé comme additif alimentaire dans l'Union européenne.",
+        "risk": "danger"
       }
     ],
     "compatibility": {
@@ -21757,13 +21782,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Oxyde de magnésium Périclase (E530) est un additif alimentaire (additif alimentaire), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "L'oxyde de magnésium est un solide blanc, souvent en poudre. Il est utilisé comme antiagglomérant et régulateur d'acidité.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Oxyde de magnésium Périclase (E530) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
-      "Sa fonction technologique relève de la catégorie « additif alimentaire ». Les données présentées proviennent des bases publiques de référence."
+      "L'oxyde de magnésium est un solide blanc, souvent en poudre. Il est utilisé comme antiagglomérant et régulateur d'acidité."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : additif alimentaire."
     ],
@@ -22012,13 +22037,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Pectines (E440) est un additif alimentaire (émulsifiant · stabilisant · épaississant), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "La pectine est un polysaccharide naturel extrait des fruits (pommes, agrumes).",
     "form": "poudre",
     "formLabel": "Poudre",
     "definition": [
-      "Pectines (E440) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Émulsifiant · Stabilisant · Épaississant ».",
-      "Sa fonction technologique relève de la catégorie « émulsifiant · stabilisant · épaississant ». Les données présentées proviennent des bases publiques de référence."
+      "La pectine est un polysaccharide naturel extrait des fruits (pommes, agrumes). C'est un gélifiant utilisé dans les confitures et gelées."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : émulsifiant · stabilisant · épaississant."
     ],
@@ -22259,13 +22284,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Peroxyde de Calcium (E930) est un additif alimentaire (additif alimentaire), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "Le peroxyde de calcium est un granulé blanc-gris, utilisé notamment en panification comme agent de traitement de la farine.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Peroxyde de Calcium (E930) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
-      "Sa fonction technologique relève de la catégorie « additif alimentaire ». Les données présentées proviennent des bases publiques de référence."
+      "Le peroxyde de calcium est un granulé blanc-gris, utilisé notamment en panification comme agent de traitement de la farine."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : additif alimentaire."
     ],
@@ -22444,13 +22469,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Phosphate acide de calcium (E540) est un additif alimentaire (additif alimentaire), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "Le phosphate acide de calcium est un sel de calcium de l'acide phosphorique, utilisé comme régulateur d'acidité, poudre à lever et affermissant.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Phosphate acide de calcium (E540) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
-      "Sa fonction technologique relève de la catégorie « additif alimentaire ». Les données présentées proviennent des bases publiques de référence."
+      "Le phosphate acide de calcium est un sel de calcium de l'acide phosphorique, utilisé comme régulateur d'acidité, poudre à lever et affermissant."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : additif alimentaire."
     ],
@@ -22505,13 +22530,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Phosphate d'aluminium et de sodium (E541) est un additif alimentaire (émulsifiant · stabilisant · épaississant), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "Le phosphate d'aluminium et de sodium est utilisé comme poudre à lever et stabilisant dans certaines préparations.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Phosphate d'aluminium et de sodium (E541) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Émulsifiant · Stabilisant · Épaississant ».",
-      "Sa fonction technologique relève de la catégorie « émulsifiant · stabilisant · épaississant ». Les données présentées proviennent des bases publiques de référence."
+      "Le phosphate d'aluminium et de sodium est utilisé comme poudre à lever et stabilisant dans certaines préparations."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : émulsifiant · stabilisant · épaississant."
     ],
@@ -22932,13 +22957,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Phosphates d'ammonium (E342) est un additif alimentaire (stabilisant · épaississant), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "Le phosphate d'ammonium est un solide blanc à faible odeur d'ammoniac, soluble dans l'eau, utilisé comme régulateur d'acidité et agent levant.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Phosphates d'ammonium (E342) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Stabilisant · Épaississant ».",
-      "Sa fonction technologique relève de la catégorie « stabilisant · épaississant ». Les données présentées proviennent des bases publiques de référence."
+      "Le phosphate d'ammonium est un solide blanc à faible odeur d'ammoniac, soluble dans l'eau, utilisé comme régulateur d'acidité et agent levant."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : stabilisant · épaississant."
     ],
@@ -24202,13 +24227,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Propionate de sodium (E281) est un additif alimentaire (conservateur), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "Le propionate de sodium est le sel de sodium de l'acide propionique.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Propionate de sodium (E281) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Conservateur ».",
-      "Sa fonction technologique relève de la catégorie « conservateur ». Les données présentées proviennent des bases publiques de référence."
+      "Le propionate de sodium est le sel de sodium de l'acide propionique. C'est un conservateur antifongique, notamment dans les produits de boulangerie."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : conservateur."
     ],
@@ -25275,16 +25300,16 @@
       "Additif alimentaire",
       "Additif alimentaire"
     ],
-    "status": "Additif alimentaire autorisé dans l'Union européenne.",
+    "status": "Retiré de la liste des additifs autorisés dans l'UE (règlement (UE) 380/2012).",
     "summary": "Silicate alumino-calcique (E556) — additif alimentaire, additif alimentaire.",
-    "regulatoryStatus": "autorise",
-    "controversy": "aucune",
+    "regulatoryStatus": "interdit",
+    "controversy": "controverse",
     "contraindications": [],
-    "plain": "Silicate alumino-calcique (E556) est un additif alimentaire (additif alimentaire), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "Silicate alumino-calcique (E556) est un additif alimentaire (additif alimentaire), aujourd'hui interdit comme additif alimentaire dans l'Union européenne.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Silicate alumino-calcique (E556) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
+      "Silicate alumino-calcique (E556) est un additif alimentaire aujourd'hui interdit comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
       "Sa fonction technologique relève de la catégorie « additif alimentaire ». Les données présentées proviennent des bases publiques de référence."
     ],
     "role": [
@@ -25294,7 +25319,7 @@
     "regulation": [
       {
         "label": "Statut UE",
-        "value": "Autorisé"
+        "value": "Interdit"
       },
       {
         "label": "Numéro E",
@@ -25303,6 +25328,11 @@
       {
         "label": "Classe(s)",
         "value": "Additif alimentaire"
+      },
+      {
+        "label": "Interdiction",
+        "value": "Retiré de la liste des additifs autorisés dans l'UE (règlement (UE) 380/2012).",
+        "risk": "danger"
       }
     ],
     "compatibility": {
@@ -25336,16 +25366,16 @@
       "Additif alimentaire",
       "Additif alimentaire"
     ],
-    "status": "Additif alimentaire autorisé dans l'Union européenne.",
+    "status": "Retiré de la liste des additifs autorisés dans l'UE (règlement (UE) 380/2012).",
     "summary": "Silicate alumino-potassique (E555) — additif alimentaire, additif alimentaire.",
-    "regulatoryStatus": "autorise",
-    "controversy": "aucune",
+    "regulatoryStatus": "interdit",
+    "controversy": "controverse",
     "contraindications": [],
-    "plain": "Silicate alumino-potassique (E555) est un additif alimentaire (additif alimentaire), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "Silicate alumino-potassique (E555) est un additif alimentaire (additif alimentaire), aujourd'hui interdit comme additif alimentaire dans l'Union européenne.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Silicate alumino-potassique (E555) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
+      "Silicate alumino-potassique (E555) est un additif alimentaire aujourd'hui interdit comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
       "Sa fonction technologique relève de la catégorie « additif alimentaire ». Les données présentées proviennent des bases publiques de référence."
     ],
     "role": [
@@ -25355,7 +25385,7 @@
     "regulation": [
       {
         "label": "Statut UE",
-        "value": "Autorisé"
+        "value": "Interdit"
       },
       {
         "label": "Numéro E",
@@ -25364,6 +25394,11 @@
       {
         "label": "Classe(s)",
         "value": "Additif alimentaire"
+      },
+      {
+        "label": "Interdiction",
+        "value": "Retiré de la liste des additifs autorisés dans l'UE (règlement (UE) 380/2012).",
+        "risk": "danger"
       }
     ],
     "compatibility": {
@@ -25397,16 +25432,16 @@
       "Additif alimentaire",
       "Additif alimentaire"
     ],
-    "status": "Additif alimentaire autorisé dans l'Union européenne.",
+    "status": "Retiré de la liste des additifs autorisés dans l'UE (règlement (UE) 380/2012).",
     "summary": "Silicate alumino-sodique (E554) — additif alimentaire, additif alimentaire.",
-    "regulatoryStatus": "autorise",
-    "controversy": "aucune",
+    "regulatoryStatus": "interdit",
+    "controversy": "controverse",
     "contraindications": [],
-    "plain": "Silicate alumino-sodique (E554) est un additif alimentaire (additif alimentaire), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "Silicate alumino-sodique (E554) est un additif alimentaire (additif alimentaire), aujourd'hui interdit comme additif alimentaire dans l'Union européenne.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Silicate alumino-sodique (E554) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
+      "Silicate alumino-sodique (E554) est un additif alimentaire aujourd'hui interdit comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
       "Sa fonction technologique relève de la catégorie « additif alimentaire ». Les données présentées proviennent des bases publiques de référence."
     ],
     "role": [
@@ -25416,7 +25451,7 @@
     "regulation": [
       {
         "label": "Statut UE",
-        "value": "Autorisé"
+        "value": "Interdit"
       },
       {
         "label": "Numéro E",
@@ -25425,6 +25460,11 @@
       {
         "label": "Classe(s)",
         "value": "Additif alimentaire"
+      },
+      {
+        "label": "Interdiction",
+        "value": "Retiré de la liste des additifs autorisés dans l'UE (règlement (UE) 380/2012).",
+        "risk": "danger"
       }
     ],
     "compatibility": {
@@ -25459,10 +25499,10 @@
       "Additif alimentaire",
       "Additif alimentaire"
     ],
-    "status": "Additif alimentaire autorisé dans l'Union européenne.",
+    "status": "Retiré de la liste des additifs autorisés dans l'UE (règlement (UE) 380/2012).",
     "summary": "Silicate d'aluminium (E559) — additif alimentaire, additif alimentaire.",
-    "regulatoryStatus": "autorise",
-    "controversy": "aucune",
+    "regulatoryStatus": "interdit",
+    "controversy": "controverse",
     "contraindications": [],
     "plain": "Les silicates d'aluminium sont des composés chimiques de l'oxyde d'aluminium(III) Al2O3 et du dioxyde de silicium SiO2, éventuellement hydratés. La plupart d'entre eux sont connus à l'état naturel (minéraux).",
     "form": "indetermine",
@@ -25478,7 +25518,7 @@
     "regulation": [
       {
         "label": "Statut UE",
-        "value": "Autorisé"
+        "value": "Interdit"
       },
       {
         "label": "Numéro E",
@@ -25487,6 +25527,11 @@
       {
         "label": "Classe(s)",
         "value": "Additif alimentaire"
+      },
+      {
+        "label": "Interdiction",
+        "value": "Retiré de la liste des additifs autorisés dans l'UE (règlement (UE) 380/2012).",
+        "risk": "danger"
       }
     ],
     "compatibility": {
@@ -25769,10 +25814,10 @@
       "Additif alimentaire",
       "Additif alimentaire"
     ],
-    "status": "Additif alimentaire autorisé dans l'Union européenne.",
+    "status": "Retiré de la liste des additifs autorisés dans l'UE (règlement (UE) 380/2012).",
     "summary": "Silicate de zinc (E557) — additif alimentaire, additif alimentaire.",
-    "regulatoryStatus": "autorise",
-    "controversy": "aucune",
+    "regulatoryStatus": "interdit",
+    "controversy": "controverse",
     "contraindications": [],
     "plain": "L’hémimorphite est une espèce minérale du groupe des silicates, sous-groupe des sorosilicates de formule chimique Zn4Si2O7(OH)2·(H2O).",
     "form": "indetermine",
@@ -25788,7 +25833,7 @@
     "regulation": [
       {
         "label": "Statut UE",
-        "value": "Autorisé"
+        "value": "Interdit"
       },
       {
         "label": "Numéro E",
@@ -25797,6 +25842,11 @@
       {
         "label": "Classe(s)",
         "value": "Additif alimentaire"
+      },
+      {
+        "label": "Interdiction",
+        "value": "Retiré de la liste des additifs autorisés dans l'UE (règlement (UE) 380/2012).",
+        "risk": "danger"
       }
     ],
     "compatibility": {
@@ -26153,13 +26203,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Spiramycines Antibiotique (E710) est un additif alimentaire (additif alimentaire), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "La spiramycine est un antibiotique de la famille des macrolides, à usage essentiellement médical et vétérinaire.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Spiramycines Antibiotique (E710) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
-      "Sa fonction technologique relève de la catégorie « additif alimentaire ». Les données présentées proviennent des bases publiques de référence."
+      "La spiramycine est un antibiotique de la famille des macrolides, à usage essentiellement médical et vétérinaire."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : additif alimentaire."
     ],
@@ -26522,13 +26572,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Stéaroyl-2-lactylate de calcium (E482) est un additif alimentaire (émulsifiant · stabilisant), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "Le stéaroyl-2-lactylate de calcium est un émulsifiant, utilisé notamment en boulangerie pour améliorer la texture des pâtes.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Stéaroyl-2-lactylate de calcium (E482) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Émulsifiant · Stabilisant ».",
-      "Sa fonction technologique relève de la catégorie « émulsifiant · stabilisant ». Les données présentées proviennent des bases publiques de référence."
+      "Le stéaroyl-2-lactylate de calcium est un émulsifiant, utilisé notamment en boulangerie pour améliorer la texture des pâtes."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : émulsifiant · stabilisant."
     ],
@@ -26587,13 +26637,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Stéaroyl-2-lactylate de sodium (E481) est un additif alimentaire (émulsifiant · stabilisant), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "Le stéaroyl-2-lactylate de sodium est un émulsifiant, utilisé notamment en boulangerie pour renforcer et assouplir les pâtes.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Stéaroyl-2-lactylate de sodium (E481) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Émulsifiant · Stabilisant ».",
-      "Sa fonction technologique relève de la catégorie « émulsifiant · stabilisant ». Les données présentées proviennent des bases publiques de référence."
+      "Le stéaroyl-2-lactylate de sodium est un émulsifiant, utilisé notamment en boulangerie pour renforcer et assouplir les pâtes."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : émulsifiant · stabilisant."
     ],
@@ -28535,10 +28585,10 @@
       "Additif alimentaire",
       "Additif alimentaire"
     ],
-    "status": "Additif alimentaire autorisé dans l'Union européenne.",
+    "status": "Non autorisé comme additif alimentaire dans l'Union européenne.",
     "summary": "Thiabendazole (E233) — additif alimentaire, additif alimentaire.",
-    "regulatoryStatus": "autorise",
-    "controversy": "aucune",
+    "regulatoryStatus": "interdit",
+    "controversy": "controverse",
     "contraindications": [],
     "plain": "Le thiabendazole ou 2-(4-thiazolyl)benzimidazole est une substance fongicide utilisée pour prévenir l'apparition de maladies à moisissure comme la rouille chez certaines espèces végétales.",
     "form": "indetermine",
@@ -28554,7 +28604,7 @@
     "regulation": [
       {
         "label": "Statut UE",
-        "value": "Autorisé"
+        "value": "Interdit"
       },
       {
         "label": "Numéro E",
@@ -28563,6 +28613,11 @@
       {
         "label": "Classe(s)",
         "value": "Additif alimentaire"
+      },
+      {
+        "label": "Interdiction",
+        "value": "Non autorisé comme additif alimentaire dans l'Union européenne.",
+        "risk": "danger"
       }
     ],
     "compatibility": {
@@ -28725,13 +28780,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Trioléate de sorbitane (E496) est un additif alimentaire (additif alimentaire), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "Le trioléate de sorbitane est un émulsifiant non ionique, qui stabilise les mélanges d'eau et de matières grasses.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Trioléate de sorbitane (E496) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
-      "Sa fonction technologique relève de la catégorie « additif alimentaire ». Les données présentées proviennent des bases publiques de référence."
+      "Le trioléate de sorbitane est un émulsifiant non ionique, qui stabilise les mélanges d'eau et de matières grasses."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : additif alimentaire."
     ],
@@ -28982,13 +29037,13 @@
     "regulatoryStatus": "autorise",
     "controversy": "aucune",
     "contraindications": [],
-    "plain": "Tylosine Antibiotique (E713) est un additif alimentaire (additif alimentaire), autorisé comme additif alimentaire dans l'Union européenne.",
+    "plain": "La tylosine est un antibiotique macrolide produit par fermentation, utilisé en médecine vétérinaire.",
     "form": "indetermine",
     "formLabel": "Forme non documentée",
     "definition": [
-      "Tylosine Antibiotique (E713) est un additif alimentaire autorisé comme additif alimentaire dans l'Union européenne, classé dans la famille « Additif alimentaire ».",
-      "Sa fonction technologique relève de la catégorie « additif alimentaire ». Les données présentées proviennent des bases publiques de référence."
+      "La tylosine est un antibiotique macrolide produit par fermentation, utilisé en médecine vétérinaire."
     ],
+    "definitionSource": "pubchem",
     "role": [
       "Fonction technologique principale : additif alimentaire."
     ],
@@ -29105,10 +29160,10 @@
       "Additif alimentaire",
       "Colorant"
     ],
-    "status": "Additif alimentaire autorisé dans l'Union européenne.",
+    "status": "Non autorisé dans l'UE (autorisé aux États-Unis).",
     "summary": "Vert solide FCF (E143) — additif alimentaire, colorant.",
-    "regulatoryStatus": "autorise",
-    "controversy": "aucune",
+    "regulatoryStatus": "interdit",
+    "controversy": "controverse",
     "contraindications": [],
     "plain": "Le vert solide FCF (souvent – impropremement – traduit par vert rapide FCF) est un composé organique à structure triarylméthane utilisé comme colorant. Il est référencé dans le Colour Index sous le numéro C.I.",
     "form": "indetermine",
@@ -29124,7 +29179,7 @@
     "regulation": [
       {
         "label": "Statut UE",
-        "value": "Autorisé"
+        "value": "Interdit"
       },
       {
         "label": "Numéro E",
@@ -29133,6 +29188,11 @@
       {
         "label": "Classe(s)",
         "value": "Colorant"
+      },
+      {
+        "label": "Interdiction",
+        "value": "Non autorisé dans l'UE (autorisé aux États-Unis).",
+        "risk": "danger"
       }
     ],
     "compatibility": {

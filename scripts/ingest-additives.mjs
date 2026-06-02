@@ -7,9 +7,13 @@
 // statuts réglementaires curatés (interdits / restreints UE & France), et états
 // physiques curatés pour les cas connus.
 
-import { writeFile } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
+
+const ROOT = dirname(fileURLToPath(import.meta.url));
+// Descriptions PubChem triées et traduites en français (alimentent les fiches sans Wikipédia).
+const FR_DESC = JSON.parse(await readFile(join(ROOT, "..", "data", "descriptions.fr.json"), "utf8"));
 
 const TAXO_URL = "https://static.openfoodfacts.org/data/taxonomies/additives.json";
 const OUT = join(dirname(fileURLToPath(import.meta.url)), "..", "data", "additives.generated.json");
@@ -140,6 +144,51 @@ async function fetchJson(url) {
   return null;
 }
 
+function cleanWiki(s) {
+  return s
+    .replace(/<ref[^>]*>[\s\S]*?<\/ref>/gi, "")
+    .replace(/<ref[^>]*\/>/gi, "")
+    .replace(/\{\{[^}]*\}\}/g, "")
+    .replace(/\[\[(?:[^\]|]*\|)?([^\]]*)\]\]/g, "$1")
+    .replace(/'''?/g, "")
+    .replace(/<[^>]+>/g, "")
+    .trim();
+}
+
+// Motif d'interdiction en français, dérivé du statut anglais (Wikipédia / règlements UE).
+function reasonFr(statusEn) {
+  const s = statusEn.toLowerCase();
+  const reg = statusEn.match(/Regulation \(EU\) No (\d+\/\d+)/i);
+  const year = statusEn.match(/\b(?:19|20)\d{2}\b/);
+  if (/removed from/.test(s)) return `Retiré de la liste des additifs autorisés dans l'UE${reg ? ` (règlement (UE) ${reg[1]})` : ""}.`;
+  if (/no longer approved|approval withdrawn/.test(s)) return `Autorisation retirée dans l'Union européenne${year ? ` (${year[0]})` : ""}.`;
+  if (/approved in the (united states|us)/.test(s) && !/approved in the eu/.test(s)) return "Non autorisé dans l'UE (autorisé aux États-Unis).";
+  if (/banned in the eu/.test(s)) return "Interdit comme additif alimentaire dans l'Union européenne.";
+  return "Non autorisé comme additif alimentaire dans l'Union européenne.";
+}
+
+// Statut réglementaire UE par parsing de la liste Wikipédia (EN) des E-numbers,
+// qui cite les règlements 1333/2008 et ses amendements. Renvoie les INTERDITS.
+async function fetchEuStatus() {
+  const d = await fetchJson("https://en.wikipedia.org/w/api.php?action=parse&page=E_number&prop=wikitext&format=json&formatversion=2");
+  const wt = d?.parse?.wikitext;
+  const map = new Map();
+  if (!wt) return map;
+  for (const blk of wt.split(/\n\|-/)) {
+    const cells = blk.split("\n").filter((l) => /^\s*\|(?![-+])/.test(l)).map((l) => l.replace(/^\s*\|/, ""));
+    if (cells.length < 2) continue;
+    const m = cleanWiki(cells[0]).match(/^E?(\d{3,4}[a-z]?)$/i);
+    if (!m) continue;
+    const status = cleanWiki(cells[cells.length - 1]);
+    const sl = status.toLowerCase();
+    const banned =
+      /no longer approved in the eu|not approved in the eu|not authorised in the eu|removed from (the )?list|approval withdrawn|banned in the eu|prohibited in the eu/.test(sl) ||
+      (/approved in the (united states|us)/.test(sl) && !/approved in the eu/.test(sl));
+    if (banned) map.set(m[1].toLowerCase(), { status: "interdit", reason: reasonFr(status) });
+  }
+  return map;
+}
+
 // Extraits Wikipédia FR en lot via l'API MediaWiki (suit les redirections).
 // Renvoie une Map titreOriginal → { title, extract, wikidata }.
 async function fetchExtracts(titles) {
@@ -192,9 +241,10 @@ function firstSentence(text, max = 220) {
   return (stop > 60 ? cut.slice(0, stop + 1) : cut).trim();
 }
 
-function buildEntry(num, frName, enName, family, wikidata, hasEfsa, vegan, summary) {
+function buildEntry(num, frName, enName, family, wikidata, hasEfsa, vegan, summary, reg) {
   const eCode = `E${num}`;
-  const reg = REGULATORY[num];
+  const slug = `${slugify(frName)}-${num}`;
+  const frDesc = FR_DESC[slug];
   const status = reg?.status ?? "autorise";
   const [form, formLabel] = FORM[num] ?? ["indetermine", "Forme non documentée"];
 
@@ -219,23 +269,29 @@ function buildEntry(num, frName, enName, family, wikidata, hasEfsa, vegan, summa
         ? "autorisé sous conditions dans l'Union européenne"
         : "autorisé comme additif alimentaire dans l'Union européenne";
 
+  const defSource = summary ? "wikipedia" : frDesc ? "pubchem" : null;
+
   const definition = summary
     ? [summary.extract]
-    : [
-        `${frName} (${eCode}) est un additif alimentaire ${statusPhrase}, classé dans la famille « ${family} ».`,
-        `Sa fonction technologique relève de la catégorie « ${family.toLowerCase()} ». Les données présentées proviennent des bases publiques de référence.`,
-      ];
+    : frDesc
+      ? [frDesc]
+      : [
+          `${frName} (${eCode}) est un additif alimentaire ${statusPhrase}, classé dans la famille « ${family} ».`,
+          `Sa fonction technologique relève de la catégorie « ${family.toLowerCase()} ». Les données présentées proviennent des bases publiques de référence.`,
+        ];
 
   const plain = summary
     ? firstSentence(summary.extract)
-    : `${frName} (${eCode}) est un additif alimentaire (${family.toLowerCase()}), ${statusPhrase}.`;
+    : frDesc
+      ? firstSentence(frDesc)
+      : `${frName} (${eCode}) est un additif alimentaire (${family.toLowerCase()}), ${statusPhrase}.`;
 
   const statusLine = reg
     ? reg.reason
     : "Additif alimentaire autorisé dans l'Union européenne.";
 
   return {
-    slug: `${slugify(frName)}-${num}`,
+    slug,
     refs: {
       ...(enName ? { pubchem: enName } : {}),
       offAdditive: `e${num}`,
@@ -256,7 +312,7 @@ function buildEntry(num, frName, enName, family, wikidata, hasEfsa, vegan, summa
     form,
     formLabel,
     definition,
-    ...(summary ? { definitionSource: "wikipedia" } : {}),
+    ...(defSource ? { definitionSource: defSource } : {}),
     role: [`Fonction technologique principale : ${family.toLowerCase()}.`],
     foundIn: [],
     regulation,
@@ -303,13 +359,19 @@ async function main() {
     }
   }
 
+  console.log("→ Parsing du statut réglementaire UE (liste Wikipédia / règlement 1333/2008)…");
+  const euStatus = await fetchEuStatus();
+  console.log(`  interdits détectés (parsing) : ${euStatus.size}`);
+
   console.log(`→ Enrichissement Wikipédia (lots) de ${sources.length} additifs…`);
   const extracts = await fetchExtracts(sources.map((s) => s.frName));
   let enriched = 0;
   const out = sources.map((s) => {
     const summary = extracts.get(s.frName) ?? null;
     if (summary) enriched++;
-    return buildEntry(s.num, s.frName, s.enName, s.family, s.wikidata ?? summary?.wikidata, s.hasEfsa, s.vegan, summary);
+    // Précédence : curaté (vérifié à la main) > parsé Wikipédia > défaut autorisé.
+    const reg = REGULATORY[s.num] ?? euStatus.get(s.num) ?? null;
+    return buildEntry(s.num, s.frName, s.enName, s.family, s.wikidata ?? summary?.wikidata, s.hasEfsa, s.vegan, summary, reg);
   });
 
   out.sort((a, b) => a.name.localeCompare(b.name, "fr"));

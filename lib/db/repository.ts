@@ -25,7 +25,7 @@ function rowToIngredient(r: Row): Ingredient {
     foundIn: JSON.parse(r.found_in),
     contraindications: JSON.parse(r.contraindications),
     definition: JSON.parse(r.definition),
-    ...(r.definition_source ? { definitionSource: r.definition_source as "wikipedia" } : {}),
+    ...(r.definition_source ? { definitionSource: r.definition_source as Ingredient["definitionSource"] } : {}),
     role: JSON.parse(r.role),
     regulation: JSON.parse(r.regulation),
     compatibility: JSON.parse(r.compatibility),
