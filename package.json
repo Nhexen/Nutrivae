@@ -8,10 +8,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "ingest:additives": "node scripts/ingest-additives.mjs"
+    "ingest:additives": "node scripts/ingest-additives.mjs",
+    "ingest:cosmetics": "node scripts/ingest-cosmetics.mjs"
   },
   "dependencies": {
+    "@electric-sql/pglite": "^0.5.1",
     "next": "^16.2.7",
+    "postgres": "^3.4.9",
     "react": "19.0.0",
     "react-dom": "19.0.0"
   },

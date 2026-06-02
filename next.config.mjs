@@ -10,6 +10,8 @@ const nextConfig = {
   turbopack: {
     root: projectRoot,
   },
+  // Ne pas bundler les moteurs de base : chargés nativement côté serveur.
+  serverExternalPackages: ["@electric-sql/pglite", "postgres"],
 };
 
 export default nextConfig;

@@ -1,8 +1,6 @@
-// Schéma SQL de la base Nutrivae.
-// Les champs structurés (tableaux, objets) sont stockés en JSON (TEXT).
-// Migration future vers Postgres : ces colonnes deviennent du `jsonb`.
-export const SCHEMA = `
-CREATE TABLE IF NOT EXISTS ingredients (
+// Schéma de la table `ingredients`, partagé entre SQLite et Postgres.
+// Les champs structurés (tableaux, objets) sont stockés en texte JSON.
+const COLUMNS_DDL = `
   slug              TEXT PRIMARY KEY,
   name              TEXT NOT NULL,
   family            TEXT NOT NULL,
@@ -26,5 +24,6 @@ CREATE TABLE IF NOT EXISTS ingredients (
   science           TEXT NOT NULL,
   refs              TEXT NOT NULL,
   related           TEXT NOT NULL
-);
 `;
+
+export const SCHEMA = `CREATE TABLE IF NOT EXISTS ingredients (${COLUMNS_DDL});`;

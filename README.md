@@ -77,24 +77,24 @@ npm run ingest:additives   # → data/additives.generated.json (versionné)
   interdit), par **domaine d'usage**, par **état physique**, avec compteurs.
 - `/ingredients?statut=…&domaine=…&forme=…` — annuaire **filtrable par facettes**.
 
-## Architecture des données (V1.1)
+## Architecture des données
 
 L'accès aux substances passe par une **couche repository asynchrone** au-dessus
-d'un moteur **SQL** — point de bascule unique vers une base persistante (Postgres)
-sans toucher aux pages.
+d'un moteur **SQL interchangeable** — bascule par variable d'environnement, sans
+toucher aux pages.
 
 ```
-Page (server) ─▶ lib/ingredients (façade) ─▶ lib/db/repository ─▶ node:sqlite
-                                                                     ▲
-                                          seed depuis data/ingredients.ts
+Page (server) ─▶ lib/ingredients ─▶ lib/db/repository ─▶ Store ┬─ SQLite (node:sqlite, défaut)
+                                                               └─ Postgres (PGlite local / DATABASE_URL)
+                                            seed depuis lib/db/catalogue (curaté + ingéré)
 ```
 
-- **`lib/db/`** — `schema.ts` (DDL), `client.ts` (moteur `node:sqlite`, natif Node ≥ 22,
-  zéro dépendance), `repository.ts` (requêtes async → `Ingredient`).
-- **Stockage V1.1** — SQLite en mémoire, ensemencé depuis `data/ingredients.ts`.
-  Fichier persistant possible via `NUTRIVAE_DB=db/nutrivae.db` (process unique).
-- **Recherche** — `lib/search.ts` (pur, sans dépendance DB) : le serveur passe un
-  index léger au composant client pour une recherche instantanée (volumes V1/V2).
+- **`lib/db/`** — `catalogue.ts` (données + mapping partagés), `schema.ts` (DDL),
+  `store.ts` (interface), `sqlite-store.ts`, `postgres-store.ts`, `repository.ts` (sélecteur).
+- **Choix du moteur** — `NUTRIVAE_STORE=postgres` bascule sur Postgres :
+  **PGlite** (Postgres embarqué WASM, zéro serveur) en local, ou un Postgres hébergé
+  via `DATABASE_URL` (Neon, Supabase…). Défaut : SQLite (`node:sqlite`, natif Node ≥ 22).
+- **Recherche** — `lib/search.ts` (pur) : le serveur passe un index léger au client.
 
 ## Stack
 

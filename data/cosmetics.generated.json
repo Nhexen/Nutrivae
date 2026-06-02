@@ -1,0 +1,3367 @@
+[
+  {
+    "slug": "acide-ascorbique-inci",
+    "refs": {
+      "pubchem": "Ascorbic Acid",
+      "wikipediaFr": "Acide ascorbique",
+      "wikidata": "Q193598",
+      "cosing": "Ascorbic Acid"
+    },
+    "name": "acide ascorbique",
+    "aliases": [
+      "Ascorbic Acid",
+      "CAS 50-81-7 / 62624-30-0"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Antioxydant · Tampon (pH) · Masquant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Antioxydant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "acide ascorbique (INCI : Ascorbic Acid) — ingrédient cosmétique, antioxydant · tampon (ph) · masquant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "L'acide ascorbique, ou acide oxo-3-gulofuranolactone (forme énolique), est un acide organique ayant des propriétés antioxydantes.",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "L'acide ascorbique, ou acide oxo-3-gulofuranolactone (forme énolique), est un acide organique ayant des propriétés antioxydantes. Il est présent sous une forme énantiomériquement pure (acide L-ascorbique ou vitamine C) dans beaucoup de fruits, jus de fruits et légumes frais."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : antioxydant · tampon (ph) · masquant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Ascorbic Acid"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "50-81-7 / 62624-30-0"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "acide-hyaluronique-inci",
+    "refs": {
+      "pubchem": "Hyaluronic Acid",
+      "wikipediaFr": "Acide hyaluronique",
+      "wikidata": "Q337231",
+      "cosing": "Hyaluronic Acid"
+    },
+    "name": "acide hyaluronique",
+    "aliases": [
+      "Hyaluronic Acid",
+      "CAS 9004-61-9"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Antistatique · Humectant · Hydratant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Antistatique"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "acide hyaluronique (INCI : Hyaluronic Acid) — ingrédient cosmétique, antistatique · humectant · hydratant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "L'acide hyaluronique est un type de polysaccharide (plus précisément une glycosaminoglycane) non fixé à une protéine centrale et largement réparti parmi les tissus conjonctifs, épithéliaux et nerveux animaux.",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "L'acide hyaluronique est un type de polysaccharide (plus précisément une glycosaminoglycane) non fixé à une protéine centrale et largement réparti parmi les tissus conjonctifs, épithéliaux et nerveux animaux. Il se trouve notamment dans l'humeur vitrée et le liquide synovial. Il est l'un des principaux composants de la matrice extracellulaire ainsi que de certaines mucoprotéines lorsqu'il est associé à une fraction protéique. Depuis les années 1990, il est très utilisé dans divers dispositifs médicaux, médicamenteux et cosmétiques (présenté dans ce dernier cas comme « antistatique, humectant, hydratant, conditionneur cutané, anti-âge, etc."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : antistatique · humectant · hydratant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Hyaluronic Acid"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "9004-61-9"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "acide-lactique-inci",
+    "refs": {
+      "pubchem": "Lactic Acid",
+      "wikipediaFr": "Acide lactique",
+      "wikidata": "Q161249",
+      "cosing": "Lactic Acid"
+    },
+    "name": "acide lactique",
+    "aliases": [
+      "Lactic Acid",
+      "CAS 50-21-5"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Tampon (pH) · Humectant · Agent de soin de la peau",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Tampon (pH)"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "acide lactique (INCI : Lactic Acid) — ingrédient cosmétique, tampon (ph) · humectant · agent de soin de la peau.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Les acides lactiques (acides hydroxypropanoïques) sont des acides organiques dont la chaîne est composée de trois atomes de carbone.",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Les acides lactiques (acides hydroxypropanoïques) sont des acides organiques dont la chaîne est composée de trois atomes de carbone. Les ions lactate sont les bases conjuguées de ces acides (autrement dit, la forme ionisée des acides lactiques). Les acides lactiques doivent leur nom par référence au lait, d'où un des énantiomères (l'acide L-lactique, ou S) a été isolé pour la première fois du lait aigre en 1780 par le chimiste suédois Carl Wilhelm Scheele, mais il est largement présent (souvent dissocié sous forme de lactate) dans les organismes vivants où il joue un rôle dans divers processus biochimiques (notamment la production d'énergie lors d'effort musculaire anaérobie), et dans des produits d'origine vivante, par exemple dans le vin, certains fruits et légumes, la choucroute et d'autres produits fermentés, etc. Les acides lactiques sont des acides α-hydroxylés, de formule brute C3H6O3."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : tampon (ph) · humectant · agent de soin de la peau."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Lactic Acid"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "50-21-5"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "acide-salicylique-inci",
+    "refs": {
+      "pubchem": "Salicylic Acid",
+      "wikipediaFr": "Acide salicylique",
+      "wikidata": "Q193572",
+      "cosing": "Salicylic Acid"
+    },
+    "name": "acide salicylique",
+    "aliases": [
+      "Salicylic Acid",
+      "CAS 69-72-7"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Antidandruff · Soin capillaire · Keratolytic",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Antidandruff"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "acide salicylique (INCI : Salicylic Acid) — ingrédient cosmétique, antidandruff · soin capillaire · keratolytic.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "L'acide salicylique ou acide 2-hydroxybenzoïque est un composé organique aromatique, l'un des trois isomères de l'acide hydroxybenzoïque, constitué d'un noyau benzénique substitué par un groupe carboxyle (acide benzoïque",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "L'acide salicylique ou acide 2-hydroxybenzoïque est un composé organique aromatique, l'un des trois isomères de l'acide hydroxybenzoïque, constitué d'un noyau benzénique substitué par un groupe carboxyle (acide benzoïque) et un groupe hydroxyle (phénol) en position ortho. C'est un solide cristallin incolore qu'on trouve naturellement dans certains végétaux, dont le saule blanc (d'où il tire son nom) et la fausse-spirée (d'où le nom désuet acide spirique), utilisé comme médicament et comme précurseur de l'acide acétylsalicylique, l'aspirine. L'acide salicylique est aussi une phytohormone impliquée dans le métabolisme de défense de la plante contre les pathogènes."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : antidandruff · soin capillaire · keratolytic."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Salicylic Acid"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "69-72-7"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "acide-stearique-inci",
+    "refs": {
+      "pubchem": "Stearic Acid",
+      "wikipediaFr": "Acide stéarique",
+      "wikidata": "Q209685",
+      "cosing": "Stearic Acid"
+    },
+    "name": "acide stéarique",
+    "aliases": [
+      "Stearic Acid",
+      "CAS 57-11-4"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Nettoyant · Émulsifiant · Emulsion stabilising",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Nettoyant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "acide stéarique (INCI : Stearic Acid) — ingrédient cosmétique, nettoyant · émulsifiant · emulsion stabilising.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "L'acide stéarique (du grec ancien στέαρ, qui signifie suif) ou acide octadécanoïque (nom IUPAC) est un acide gras à chaîne moyenne, qu'on symbolise par les nombres 18:0 pour indiquer qu'il a 18 atomes de carbone et aucun",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "L'acide stéarique (du grec ancien στέαρ, qui signifie suif) ou acide octadécanoïque (nom IUPAC) est un acide gras à chaîne moyenne, qu'on symbolise par les nombres 18:0 pour indiquer qu'il a 18 atomes de carbone et aucune liaison covalente double : c'est un acide gras saturé. À température ambiante, il forme un solide blanc. Sa température de fusion est d'environ 70 °C. L'acide stéarique est abondant dans toutes les graisses animales sous la forme de l'ester tristéarate de glycérine (stéarine) C57H110O6 (surtout chez les ruminants) ou végétales. Il est d'ailleurs le plus répandu des acides gras saturés après l'acide palmitique et avant l'acide myristique."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : nettoyant · émulsifiant · emulsion stabilising."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Stearic Acid"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "57-11-4"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "alcohol-denat-inci",
+    "refs": {
+      "pubchem": "Alcohol Denat.",
+      "wikidata": "Q855523",
+      "cosing": "Alcohol Denat."
+    },
+    "name": "Alcohol Denat.",
+    "aliases": [
+      "Alcohol Denat."
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Antifoaming · Antimicrobial · Astringent",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Antifoaming"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Alcohol Denat. (INCI : Alcohol Denat.) — ingrédient cosmétique, antifoaming · antimicrobial · astringent.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Alcohol Denat. (INCI : Alcohol Denat.) est un ingrédient cosmétique courant (antifoaming · antimicrobial · astringent).",
+    "form": "liquide",
+    "formLabel": "Liquide",
+    "definition": [
+      "Alcohol Denat. (INCI : Alcohol Denat.) est un ingrédient cosmétique de fonction « Antifoaming · Antimicrobial · Astringent », autorisé dans l'Union européenne.",
+      "Les données présentées proviennent des bases publiques (Open Beauty Facts, CosIng)."
+    ],
+    "role": [
+      "Fonction cosmétique : antifoaming · antimicrobial · astringent."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Alcohol Denat."
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "alcool-benzylique-inci",
+    "refs": {
+      "pubchem": "Benzyl Alcohol",
+      "wikipediaFr": "Alcool benzylique",
+      "wikidata": "Q52353",
+      "cosing": "Benzyl Alcohol"
+    },
+    "name": "alcool benzylique",
+    "aliases": [
+      "Benzyl Alcohol",
+      "CAS 100-51-6"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Parfumant · Conservateur · Solvant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Parfumant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "alcool benzylique (INCI : Benzyl Alcohol) — ingrédient cosmétique, parfumant · conservateur · solvant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "L'alcool benzylique est un alcool de formule semi-développée C6H5-CH2OH. C'est un liquide incolore, inflammable et irritant.",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "L'alcool benzylique est un alcool de formule semi-développée C6H5-CH2OH. C'est un liquide incolore, inflammable et irritant. Cannizzaro le découvre en 1853 par l'action de l'hydroxyde de potassium sur le benzaldéhyde."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : parfumant · conservateur · solvant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Benzyl Alcohol"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "100-51-6"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "allantoin-inci",
+    "refs": {
+      "pubchem": "Allantoin",
+      "wikidata": "Q409804",
+      "cosing": "Allantoin"
+    },
+    "name": "Allantoin",
+    "aliases": [
+      "Allantoin",
+      "CAS 97-59-6"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Agent de soin de la peau · Protecteur cutané · Apaisant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Agent de soin de la peau"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Allantoin (INCI : Allantoin) — ingrédient cosmétique, agent de soin de la peau · protecteur cutané · apaisant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Allantoin (INCI : Allantoin) est un ingrédient cosmétique courant (agent de soin de la peau · protecteur cutané · apaisant).",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Allantoin (INCI : Allantoin) est un ingrédient cosmétique de fonction « Agent de soin de la peau · Protecteur cutané · Apaisant », autorisé dans l'Union européenne.",
+      "Les données présentées proviennent des bases publiques (Open Beauty Facts, CosIng)."
+    ],
+    "role": [
+      "Fonction cosmétique : agent de soin de la peau · protecteur cutané · apaisant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Allantoin"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "97-59-6"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "benzoate-de-sodium-inci",
+    "refs": {
+      "pubchem": "Sodium Benzoate",
+      "wikipediaFr": "Benzoate de sodium",
+      "wikidata": "Q423971",
+      "cosing": "Sodium Benzoate"
+    },
+    "name": "benzoate de sodium",
+    "aliases": [
+      "Sodium Benzoate",
+      "CAS 532-32-1"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Anticorrosive · Masquant · Conservateur",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Anticorrosive"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "benzoate de sodium (INCI : Sodium Benzoate) — ingrédient cosmétique, anticorrosive · masquant · conservateur.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le benzoate de sodium, de formule chimique (Na+ + C6H5COO−)(NaC6H5COO) est le sel de sodium de l'acide benzoïque, connu sous le nom E211 comme additif alimentaire.",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Le benzoate de sodium, de formule chimique (Na+ + C6H5COO−)(NaC6H5COO) est le sel de sodium de l'acide benzoïque, connu sous le nom E211 comme additif alimentaire. Soluble à raison de 640 parts pour 1 000 d'eau à 25 °C, il précipite en présence d'un acide concentré en donnant de l'acide benzoïque (très peu soluble dans l'eau)."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : anticorrosive · masquant · conservateur."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Sodium Benzoate"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "532-32-1"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "betaine-de-cocamidopropyle-inci",
+    "refs": {
+      "pubchem": "Cocamidopropyl Betaine",
+      "wikipediaFr": "Bétaïne de cocamidopropyle",
+      "wikidata": "Q1090054",
+      "cosing": "Cocamidopropyl Betaine"
+    },
+    "name": "Bétaïne de cocamidopropyle",
+    "aliases": [
+      "Cocamidopropyl Betaine",
+      "CAS 61789-40-0"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Antistatique · Nettoyant · Foam boosting",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Antistatique"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Bétaïne de cocamidopropyle (INCI : Cocamidopropyl Betaine) — ingrédient cosmétique, antistatique · nettoyant · foam boosting.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "La bétaïne de cocamidopropyle (Cocamidopropyl betaïne, en nomenclature INCI) est un tensioactif dérivé de l'huile de noix de coco et de la diméthylaminopropylamine.",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "La bétaïne de cocamidopropyle (Cocamidopropyl betaïne, en nomenclature INCI) est un tensioactif dérivé de l'huile de noix de coco et de la diméthylaminopropylamine. Elle est utilisée dans de nombreux produits nettoyants, dont les gels douche et shampooings pour ses propriétés peu irritantes en comparaison d'autres agents de surface. Cependant, sa fabrication utilise un procédé polluant issu de la pétrochimie[réf. nécessaire]."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : antistatique · nettoyant · foam boosting."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Cocamidopropyl Betaine"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "61789-40-0"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "bha-inci",
+    "refs": {
+      "pubchem": "Bha",
+      "wikipediaFr": "BHA",
+      "wikidata": "Q409401",
+      "cosing": "Bha"
+    },
+    "name": "Bha",
+    "aliases": [
+      "Bha",
+      "CAS 25013-16-5"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Antioxydant · Masquant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Antioxydant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Bha (INCI : Bha) — ingrédient cosmétique, antioxydant · masquant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "BHA peut faire référence à : hydroxyanisole butylé, un additif alimentaire ; Bruit Hydro-Aérique, à l'examen clinique de l'abdomen ; Buddha Air, selon la liste des codes OACI des compagnies aériennes ; Bahía de Caráquez,",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "BHA peut faire référence à : hydroxyanisole butylé, un additif alimentaire ; Bruit Hydro-Aérique, à l'examen clinique de l'abdomen ; Buddha Air, selon la liste des codes OACI des compagnies aériennes ; Bahía de Caráquez, en Équateur, selon la liste des codes AITA des aéroports ; Brighton & Hove Albion, un club de football anglais."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : antioxydant · masquant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Bha"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "25013-16-5"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "bht-inci",
+    "refs": {
+      "pubchem": "Bht",
+      "wikipediaFr": "BHT",
+      "wikidata": "Q221945",
+      "cosing": "Bht"
+    },
+    "name": "Bht",
+    "aliases": [
+      "Bht",
+      "CAS 128-37-0"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Antioxydant · Masquant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Antioxydant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Bht (INCI : Bht) — ingrédient cosmétique, antioxydant · masquant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "BHT est un sigle qui peut signifier : hydroxytoluène butylé, un additif alimentaire ; Branch History Table, selon la liste des abréviations en informatique ; Bottom Hole Temperature, une mesure de forage ; bernard l'herm",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "BHT est un sigle qui peut signifier : hydroxytoluène butylé, un additif alimentaire ; Branch History Table, selon la liste des abréviations en informatique ; Bottom Hole Temperature, une mesure de forage ; bernard l'hermite terrestre ou Coenobita sp., un crustacé. BHT est un code qui peut signifier : Bhoutan, selon la liste des codes internationaux des plaques minéralogiques ; Brighton Downs Airport, dans le Queensland, en Australie, selon la liste des codes AITA des aéroports."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : antioxydant · masquant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Bht"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "128-37-0"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "butylene-glycol-inci",
+    "refs": {
+      "pubchem": "Butylene Glycol",
+      "wikidata": "Q161496",
+      "cosing": "Butylene Glycol"
+    },
+    "name": "Butylene Glycol",
+    "aliases": [
+      "Butylene Glycol",
+      "CAS 107-88-0"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Humectant · Masquant · Agent de soin de la peau",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Humectant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Butylene Glycol (INCI : Butylene Glycol) — ingrédient cosmétique, humectant · masquant · agent de soin de la peau.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Butylene Glycol (INCI : Butylene Glycol) est un ingrédient cosmétique courant (humectant · masquant · agent de soin de la peau).",
+    "form": "liquide",
+    "formLabel": "Liquide incolore",
+    "definition": [
+      "Butylene Glycol (INCI : Butylene Glycol) est un ingrédient cosmétique de fonction « Humectant · Masquant · Agent de soin de la peau », autorisé dans l'Union européenne.",
+      "Les données présentées proviennent des bases publiques (Open Beauty Facts, CosIng)."
+    ],
+    "role": [
+      "Fonction cosmétique : humectant · masquant · agent de soin de la peau."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Butylene Glycol"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "107-88-0"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "butylparabene-inci",
+    "refs": {
+      "pubchem": "Butylparaben",
+      "wikipediaFr": "4-Hydroxybenzoate de butyle",
+      "wikidata": "Q3302873",
+      "cosing": "Butylparaben"
+    },
+    "name": "butylparabène",
+    "aliases": [
+      "Butylparaben",
+      "CAS 94-26-8"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Masquant · Conservateur",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Masquant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "butylparabène (INCI : Butylparaben) — ingrédient cosmétique, masquant · conservateur.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le 4-hydroxybenzoate de butyle, aussi appelé butylparabène ou encore p-hydroxybenzoate de butyle, est un composé organique appartenant à la famille des parabènes.",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Le 4-hydroxybenzoate de butyle, aussi appelé butylparabène ou encore p-hydroxybenzoate de butyle, est un composé organique appartenant à la famille des parabènes. C'est un solide blanc soluble dans les solvants organiques. Il est synthétisé pour son rôle de conservateur antimicrobien très efficace dans les cosmétiques. Il est également utilisé dans les émulsions médicamenteuses et comme additif aromatisant dans les aliments."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : masquant · conservateur."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Butylparaben"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "94-26-8"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "cafeine-inci",
+    "refs": {
+      "pubchem": "Caffeine",
+      "wikipediaFr": "Caféine",
+      "wikidata": "Q60235",
+      "cosing": "Caffeine"
+    },
+    "name": "caféine",
+    "aliases": [
+      "Caffeine",
+      "CAS 58-08-2"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Masquant · Agent de soin de la peau",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Masquant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "caféine (INCI : Caffeine) — ingrédient cosmétique, masquant · agent de soin de la peau.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "La caféine, aussi désignée sous les noms de théine, 1,3,7-triméthylxanthine ou méthylthéobromine, est un alcaloïde de la famille des méthylxanthines, présent dans de nombreux aliments, qui agit comme stimulant psychotrop",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "La caféine, aussi désignée sous les noms de théine, 1,3,7-triméthylxanthine ou méthylthéobromine, est un alcaloïde de la famille des méthylxanthines, présent dans de nombreux aliments, qui agit comme stimulant psychotrope chez les mammifères et comme léger diurétique. La caféine interagit avec d'autres molécules alcaloïdes proches, comme la nicotine par exemple. Les alcaloïdes ont la particularité de se fixer sur les récepteurs nicotiniques de l'acétylcholine, induisant une sensation de bien-être et d'augmentation de la vigilance et de l'attention. La caféine a été isolée en 1819 par le chimiste allemand Friedlieb Ferdinand Runge."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : masquant · agent de soin de la peau."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Caffeine"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "58-08-2"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "carbomer-inci",
+    "refs": {
+      "pubchem": "Carbomer",
+      "wikipediaFr": "Carbomère",
+      "wikidata": "Q409762",
+      "cosing": "Carbomer"
+    },
+    "name": "Carbomer",
+    "aliases": [
+      "Carbomer",
+      "CAS 9007-20-9 / 9003-01-4 / 76050-42-5 / 9062-04-8 / 9007-16-3 / 9007-17-4"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Emulsion stabilising · Gel forming · Agent de viscosité",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Emulsion stabilising"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Carbomer (INCI : Carbomer) — ingrédient cosmétique, emulsion stabilising · gel forming · agent de viscosité.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Les carbomères sont des polymères synthétiques hydrophiles d'acide acrylique.",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Les carbomères sont des polymères synthétiques hydrophiles d'acide acrylique."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : emulsion stabilising · gel forming · agent de viscosité."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Carbomer"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "9007-20-9 / 9003-01-4 / 76050-42-5 / 9062-04-8 / 9007-16-3 / 9007-17-4"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "cetearyl-alcohol-inci",
+    "refs": {
+      "pubchem": "Cetearyl Alcohol",
+      "wikidata": "Q1057786",
+      "cosing": "Cetearyl Alcohol"
+    },
+    "name": "Cetearyl Alcohol",
+    "aliases": [
+      "Cetearyl Alcohol",
+      "CAS 67762-27-0 / 8005-44-5"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Émollient · Émulsifiant · Emulsion stabilising",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Émollient"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Cetearyl Alcohol (INCI : Cetearyl Alcohol) — ingrédient cosmétique, émollient · émulsifiant · emulsion stabilising.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Cetearyl Alcohol (INCI : Cetearyl Alcohol) est un ingrédient cosmétique courant (émollient · émulsifiant · emulsion stabilising).",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Cetearyl Alcohol (INCI : Cetearyl Alcohol) est un ingrédient cosmétique de fonction « Émollient · Émulsifiant · Emulsion stabilising », autorisé dans l'Union européenne.",
+      "Les données présentées proviennent des bases publiques (Open Beauty Facts, CosIng)."
+    ],
+    "role": [
+      "Fonction cosmétique : émollient · émulsifiant · emulsion stabilising."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Cetearyl Alcohol"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "67762-27-0 / 8005-44-5"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "chlorure-de-sodium-inci",
+    "refs": {
+      "pubchem": "Sodium Chloride",
+      "wikipediaFr": "Chlorure de sodium",
+      "wikidata": "Q2314",
+      "cosing": "Sodium Chloride"
+    },
+    "name": "chlorure de sodium",
+    "aliases": [
+      "Sodium Chloride",
+      "CAS 7647-14-5"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Agent de charge · Masquant · Soin bucco-dentaire",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Agent de charge"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "chlorure de sodium (INCI : Sodium Chloride) — ingrédient cosmétique, agent de charge · masquant · soin bucco-dentaire.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le chlorure de sodium est un composé chimique ionique de formule NaCl. On l'appelle plus communément sel de table ou sel de cuisine, ou tout simplement sel dans le langage courant.",
+    "form": "cristaux",
+    "formLabel": "Cristaux",
+    "definition": [
+      "Le chlorure de sodium est un composé chimique ionique de formule NaCl. On l'appelle plus communément sel de table ou sel de cuisine, ou tout simplement sel dans le langage courant. Cette roche évaporite a l'aspect d'une matière cristalline, sèche et solide, de densité 2,2, de dureté Mohs 2 et surtout friable, très soluble dans l'eau, avec un goût âcre et une saveur salée caractéristique. Cet exhausteur de goût, plus ou moins raffiné, est utilisé depuis des temps immémoriaux pour l'assaisonnement, la préservation et la conservation des aliments."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : agent de charge · masquant · soin bucco-dentaire."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Sodium Chloride"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "7647-14-5"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "citronellol-inci",
+    "refs": {
+      "pubchem": "Citronellol",
+      "wikipediaFr": "Citronellol",
+      "wikidata": "Q418813",
+      "cosing": "Citronellol"
+    },
+    "name": "Citronellol",
+    "aliases": [
+      "Citronellol",
+      "CAS 106-22-9 / 26489-01-0 / 7540-51-4 / 1117-61-9"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Parfumant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Parfumant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Citronellol (INCI : Citronellol) — ingrédient cosmétique, parfumant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le citronellol est un composé organique de formule brute C10H20O. Il est obtenu par distillation des essences de géranium et de citronnelle.",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Le citronellol est un composé organique de formule brute C10H20O. Il est obtenu par distillation des essences de géranium et de citronnelle. Il est également présent dans la rose ainsi que dans la noix de muscade."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : parfumant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Citronellol"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "106-22-9 / 26489-01-0 / 7540-51-4 / 1117-61-9"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "coumarine-inci",
+    "refs": {
+      "pubchem": "Coumarin",
+      "wikipediaFr": "Coumarine",
+      "wikidata": "Q111812",
+      "cosing": "Coumarin"
+    },
+    "name": "coumarine",
+    "aliases": [
+      "Coumarin",
+      "CAS 91-64-5"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Parfumant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Parfumant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "coumarine (INCI : Coumarin) — ingrédient cosmétique, parfumant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "La coumarine est une substance naturelle organique aromatique. Sa formule chimique est C9H6O2.",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "La coumarine est une substance naturelle organique aromatique. Sa formule chimique est C9H6O2. Elle est connue dans la nomenclature internationale comme 2H-1-benzopyrane-2-one, molécule qui peut être considérée en première approximation comme une lactone de l’acide 2-hydroxy-Z-cinnamique. Son odeur de foin fraîchement coupé a attiré l'attention des parfumeurs sur elle dès le XIXe siècle[réf."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : parfumant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Coumarin"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "91-64-5"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "cyclopentasiloxane-inci",
+    "refs": {
+      "pubchem": "Cyclopentasiloxane",
+      "cosing": "Cyclopentasiloxane"
+    },
+    "name": "Cyclopentasiloxane",
+    "aliases": [
+      "Cyclopentasiloxane"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Ingrédient cosmétique",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Ingrédient cosmétique"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Cyclopentasiloxane (INCI : Cyclopentasiloxane) — ingrédient cosmétique, ingrédient cosmétique.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Cyclopentasiloxane (INCI : Cyclopentasiloxane) est un ingrédient cosmétique courant (ingrédient cosmétique).",
+    "form": "liquide",
+    "formLabel": "Liquide (silicone)",
+    "definition": [
+      "Cyclopentasiloxane (INCI : Cyclopentasiloxane) est un ingrédient cosmétique de fonction « Ingrédient cosmétique », autorisé dans l'Union européenne.",
+      "Les données présentées proviennent des bases publiques (Open Beauty Facts, CosIng)."
+    ],
+    "role": [
+      "Fonction cosmétique : ingrédient cosmétique."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Cyclopentasiloxane"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "dimethicone-inci",
+    "refs": {
+      "pubchem": "Dimethicone",
+      "wikipediaFr": "Polydiméthylsiloxane",
+      "wikidata": "Q411955",
+      "cosing": "Dimethicone"
+    },
+    "name": "Diméthicone",
+    "aliases": [
+      "Dimethicone",
+      "CAS 63148-62-9 / 9006-65-9 / 9016-00-6"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Antifoaming · Émollient · Agent de soin de la peau",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Antifoaming"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Diméthicone (INCI : Dimethicone) — ingrédient cosmétique, antifoaming · émollient · agent de soin de la peau.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le polydiméthylsiloxane —[O-Si(CH3)2]n—, ou poly(diméthylsiloxane) selon la nomenclature systématique, communément appelé PDMS ou diméthicone, est un polymère organominéral de la famille des siloxanes.",
+    "form": "liquide",
+    "formLabel": "Liquide (silicone)",
+    "definition": [
+      "Le polydiméthylsiloxane —[O-Si(CH3)2]n—, ou poly(diméthylsiloxane) selon la nomenclature systématique, communément appelé PDMS ou diméthicone, est un polymère organominéral de la famille des siloxanes. L'amodiméthicone est un dérivé du diméthicone."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : antifoaming · émollient · agent de soin de la peau."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Dimethicone"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "63148-62-9 / 9006-65-9 / 9016-00-6"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "dimethiconol-inci",
+    "refs": {
+      "pubchem": "Dimethiconol",
+      "cosing": "Dimethiconol"
+    },
+    "name": "Dimethiconol",
+    "aliases": [
+      "Dimethiconol"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Ingrédient cosmétique",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Ingrédient cosmétique"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Dimethiconol (INCI : Dimethiconol) — ingrédient cosmétique, ingrédient cosmétique.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Dimethiconol (INCI : Dimethiconol) est un ingrédient cosmétique courant (ingrédient cosmétique).",
+    "form": "liquide",
+    "formLabel": "Liquide (silicone)",
+    "definition": [
+      "Dimethiconol (INCI : Dimethiconol) est un ingrédient cosmétique de fonction « Ingrédient cosmétique », autorisé dans l'Union européenne.",
+      "Les données présentées proviennent des bases publiques (Open Beauty Facts, CosIng)."
+    ],
+    "role": [
+      "Fonction cosmétique : ingrédient cosmétique."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Dimethiconol"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "dioxyde-de-titane-inci",
+    "refs": {
+      "pubchem": "Titanium Dioxide",
+      "wikipediaFr": "Dioxyde de titane",
+      "wikidata": "Q193521",
+      "cosing": "Titanium Dioxide"
+    },
+    "name": "dioxyde de titane",
+    "aliases": [
+      "Titanium Dioxide",
+      "CAS 13463-67-7"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Opacifiant · Uv absorber · Filtre UV",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Opacifiant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "dioxyde de titane (INCI : Titanium Dioxide) — ingrédient cosmétique, opacifiant · uv absorber · filtre uv.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le dioxyde de titane ou oxyde de titane (IV) est un composé d'oxygène et de titane de formule TiO2 présent dans la nature et fabriqué industriellement.",
+    "form": "poudre",
+    "formLabel": "Poudre blanche",
+    "definition": [
+      "Le dioxyde de titane ou oxyde de titane (IV) est un composé d'oxygène et de titane de formule TiO2 présent dans la nature et fabriqué industriellement. C'est le pigment blanc PW6 du Colour Index, largement utilisé comme opacifiant pour les peintures. Il remplace la céruse, interdite à cause de sa toxicité. Il entre aussi dans la formulation de cosmétiques, de médicaments et d'aliments."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : opacifiant · uv absorber · filtre uv."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Titanium Dioxide"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "13463-67-7"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "disodium-edta-inci",
+    "refs": {
+      "pubchem": "Disodium Edta",
+      "wikidata": "Q4532977",
+      "cosing": "Disodium Edta"
+    },
+    "name": "Disodium Edta",
+    "aliases": [
+      "Disodium Edta",
+      "CAS 139-33-3 --- 6381-92-6"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Chélateur · Agent de viscosité",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Chélateur"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Disodium Edta (INCI : Disodium Edta) — ingrédient cosmétique, chélateur · agent de viscosité.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Disodium Edta (INCI : Disodium Edta) est un ingrédient cosmétique courant (chélateur · agent de viscosité).",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Disodium Edta (INCI : Disodium Edta) est un ingrédient cosmétique de fonction « Chélateur · Agent de viscosité », autorisé dans l'Union européenne.",
+      "Les données présentées proviennent des bases publiques (Open Beauty Facts, CosIng)."
+    ],
+    "role": [
+      "Fonction cosmétique : chélateur · agent de viscosité."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Disodium Edta"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "139-33-3 --- 6381-92-6"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "ethylparaben-inci",
+    "refs": {
+      "pubchem": "Ethylparaben",
+      "wikidata": "Q229976",
+      "cosing": "Ethylparaben"
+    },
+    "name": "éthylparaben",
+    "aliases": [
+      "Ethylparaben",
+      "CAS 120-47-8"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Conservateur",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Conservateur"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "éthylparaben (INCI : Ethylparaben) — ingrédient cosmétique, conservateur.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "éthylparaben (INCI : Ethylparaben) est un ingrédient cosmétique courant (conservateur).",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "éthylparaben (INCI : Ethylparaben) est un ingrédient cosmétique de fonction « Conservateur », autorisé dans l'Union européenne.",
+      "Les données présentées proviennent des bases publiques (Open Beauty Facts, CosIng)."
+    ],
+    "role": [
+      "Fonction cosmétique : conservateur."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Ethylparaben"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "120-47-8"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "geraniol-inci",
+    "refs": {
+      "pubchem": "Geraniol",
+      "wikipediaFr": "Géraniol",
+      "wikidata": "Q410836",
+      "cosing": "Geraniol"
+    },
+    "name": "Géraniol",
+    "aliases": [
+      "Geraniol",
+      "CAS 106-24-1"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Parfumant · Tonifiant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Parfumant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Géraniol (INCI : Geraniol) — ingrédient cosmétique, parfumant · tonifiant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le géraniol est un alcool terpénique insaturé. C'est également un monoterpène. Il constitue une majeure partie de l'essence de rose et de palmarosa.",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Le géraniol est un alcool terpénique insaturé. C'est également un monoterpène. Il constitue une majeure partie de l'essence de rose et de palmarosa. Il est également présent dans les huiles essentielles de géranium, citron et citronnelle."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : parfumant · tonifiant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Geraniol"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "106-24-1"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "glycerine-inci",
+    "refs": {
+      "pubchem": "Glycerin",
+      "wikipediaFr": "Glycérol",
+      "wikidata": "Q132501",
+      "cosing": "Glycerin"
+    },
+    "name": "Glycérine",
+    "aliases": [
+      "Glycerin",
+      "CAS 56-81-5"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Dénaturant · Soin capillaire · Humectant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Dénaturant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Glycérine (INCI : Glycerin) — ingrédient cosmétique, dénaturant · soin capillaire · humectant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le glycérol, ou glycérine (du grec ancien γλυκερός, glykerós, doux), est un composé organique de formule HOH2C–CHOH–CH2OH.",
+    "form": "liquide",
+    "formLabel": "Liquide visqueux",
+    "definition": [
+      "Le glycérol, ou glycérine (du grec ancien γλυκερός, glykerós, doux), est un composé organique de formule HOH2C–CHOH–CH2OH. C'est un liquide incolore, visqueux et inodore au goût sucré, utilisé dans de nombreuses compositions pharmaceutiques. Sa molécule possède trois groupes hydroxyle correspondant à trois fonctions alcool responsables de sa solubilité dans l'eau et de sa nature hygroscopique. Un résidu glycérol constitue l'articulation centrale de tous les lipides de la classe des triglycérides et des phosphoglycérides."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : dénaturant · soin capillaire · humectant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Glycerin"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "56-81-5"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "glyceryl-stearate-inci",
+    "refs": {
+      "pubchem": "Glyceryl Stearate",
+      "wikidata": "Q5572563",
+      "cosing": "Glyceryl Stearate"
+    },
+    "name": "Glyceryl Stearate",
+    "aliases": [
+      "Glyceryl Stearate",
+      "CAS 31566-31-1"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Émollient · Émulsifiant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Émollient"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Glyceryl Stearate (INCI : Glyceryl Stearate) — ingrédient cosmétique, émollient · émulsifiant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Glyceryl Stearate (INCI : Glyceryl Stearate) est un ingrédient cosmétique courant (émollient · émulsifiant).",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Glyceryl Stearate (INCI : Glyceryl Stearate) est un ingrédient cosmétique de fonction « Émollient · Émulsifiant », autorisé dans l'Union européenne.",
+      "Les données présentées proviennent des bases publiques (Open Beauty Facts, CosIng)."
+    ],
+    "role": [
+      "Fonction cosmétique : émollient · émulsifiant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Glyceryl Stearate"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "31566-31-1"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "glycolic-acid-inci",
+    "refs": {
+      "pubchem": "Glycolic Acid",
+      "wikidata": "Q409373",
+      "cosing": "Glycolic Acid"
+    },
+    "name": "Glycolic Acid",
+    "aliases": [
+      "Glycolic Acid",
+      "CAS 79-14-1"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Tampon (pH)",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Tampon (pH)"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Glycolic Acid (INCI : Glycolic Acid) — ingrédient cosmétique, tampon (ph).",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Glycolic Acid (INCI : Glycolic Acid) est un ingrédient cosmétique courant (tampon (ph)).",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Glycolic Acid (INCI : Glycolic Acid) est un ingrédient cosmétique de fonction « Tampon (pH) », autorisé dans l'Union européenne.",
+      "Les données présentées proviennent des bases publiques (Open Beauty Facts, CosIng)."
+    ],
+    "role": [
+      "Fonction cosmétique : tampon (ph)."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Glycolic Acid"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "79-14-1"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "gomme-xanthane-inci",
+    "refs": {
+      "pubchem": "Xanthan Gum",
+      "wikipediaFr": "Gomme xanthane",
+      "wikidata": "Q410768",
+      "cosing": "Xanthan Gum"
+    },
+    "name": "Gomme Xanthane",
+    "aliases": [
+      "Xanthan Gum",
+      "CAS 11138-66-2"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Liant · Émulsifiant · Emulsion stabilising",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Liant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Gomme Xanthane (INCI : Xanthan Gum) — ingrédient cosmétique, liant · émulsifiant · emulsion stabilising.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "La gomme xanthane est un polyoside obtenu à partir de l'action d'une bactérie, la Xanthomonas campestris.",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "La gomme xanthane est un polyoside obtenu à partir de l'action d'une bactérie, la Xanthomonas campestris. Elle est soluble à froid et est utilisée comme additif alimentaire sous le code E415 pour ses propriétés épaississantes et gélifiantes afin de modifier la consistance des aliments. Le xanthane est l'un des exopolysaccharides excrétés par divers microorganismes du sol (bactéries notamment). Il joue un rôle important, à l'échelle moléculaire, dans la formation et la conservation des sols, tout comme le dextrane, le rhamsane ou les succinoglycanes."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : liant · émulsifiant · emulsion stabilising."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Xanthan Gum"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "11138-66-2"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "hydroxyde-de-sodium-inci",
+    "refs": {
+      "pubchem": "Sodium Hydroxide",
+      "wikipediaFr": "Hydroxyde de sodium",
+      "wikidata": "Q102769",
+      "cosing": "Sodium Hydroxide"
+    },
+    "name": "hydroxyde de sodium",
+    "aliases": [
+      "Sodium Hydroxide",
+      "CAS 1310-73-2"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Tampon (pH) · Dénaturant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Tampon (pH)"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "hydroxyde de sodium (INCI : Sodium Hydroxide) — ingrédient cosmétique, tampon (ph) · dénaturant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "L'hydroxyde de sodium est un solide blanc de formule chimique NaOH.",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "L'hydroxyde de sodium est un solide blanc de formule chimique NaOH. Pur, il est appelé communément soude caustique ou soude mais ce dernier terme est ambigu car il est aussi utilisé pour désigner le carbonate de sodium (soude Solvay). À température et pression ambiantes, il se trouve sous la forme cristalline d'un solide ionique. Il est fusible vers 318 °C, il se présente généralement sous forme de pastilles, de paillettes ou de billes blanches ou d'aspect translucide, corrosives. Il est très hygroscopique, il est d'ailleurs aussi souvent commercialisé sous la forme dissoute dans l'eau."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : tampon (ph) · dénaturant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Sodium Hydroxide"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "1310-73-2"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "kaolin-inci",
+    "refs": {
+      "pubchem": "Kaolin",
+      "wikipediaFr": "Kaolin",
+      "wikidata": "Q223197",
+      "cosing": "Kaolin"
+    },
+    "name": "Kaolin",
+    "aliases": [
+      "Kaolin",
+      "CAS 1332-58-7"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Abrasif · Absorbent · Antiagglomérant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Abrasif"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Kaolin (INCI : Kaolin) — ingrédient cosmétique, abrasif · absorbent · antiagglomérant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Les kaolins sont des argiles blanches, friables et réfractaires, composées principalement de kaolinite, soit des silicates d’aluminium.",
+    "form": "poudre",
+    "formLabel": "Poudre (argile)",
+    "definition": [
+      "Les kaolins sont des argiles blanches, friables et réfractaires, composées principalement de kaolinite, soit des silicates d’aluminium. Découverts à l’origine en Chine, ils sont à la base de la fabrication de la porcelaine, mais sont aussi utilisés dans l'industrie du papier, du verre, du cosmétique et de la médecine."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : abrasif · absorbent · antiagglomérant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Kaolin"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "1332-58-7"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "lauryl-ether-sulfate-de-sodium-inci",
+    "refs": {
+      "pubchem": "Sodium Laureth Sulfate",
+      "wikipediaFr": "Laureth sulfate de sodium",
+      "wikidata": "Q412561",
+      "cosing": "Sodium Laureth Sulfate"
+    },
+    "name": "Lauryl éther sulfate de sodium",
+    "aliases": [
+      "Sodium Laureth Sulfate",
+      "CAS 3088-31-1 / 9004-82-4 / 68891-38-3 / 1335-72-4 / 68585-34-2 / 91648-56-5"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Nettoyant · Émulsifiant · Moussant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Nettoyant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Lauryl éther sulfate de sodium (INCI : Sodium Laureth Sulfate) — ingrédient cosmétique, nettoyant · émulsifiant · moussant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le lauryl éther sulfate de sodium ou laureth sulfate de sodium (SLES), plus connu sous sa dénomination INCI sodium laureth sulfate (SLES), est un détergent et tensioactif ionique fort, couramment utilisé en biochimie et",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Le lauryl éther sulfate de sodium ou laureth sulfate de sodium (SLES), plus connu sous sa dénomination INCI sodium laureth sulfate (SLES), est un détergent et tensioactif ionique fort, couramment utilisé en biochimie et biologie moléculaire. C'est un liquide visqueux et incolore."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : nettoyant · émulsifiant · moussant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Sodium Laureth Sulfate"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "3088-31-1 / 9004-82-4 / 68891-38-3 / 1335-72-4 / 68585-34-2 / 91648-56-5"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "laurylsulfate-de-sodium-inci",
+    "refs": {
+      "pubchem": "Sodium Lauryl Sulfate",
+      "wikipediaFr": "Laurylsulfate de sodium",
+      "wikidata": "Q422241",
+      "cosing": "Sodium Lauryl Sulfate"
+    },
+    "name": "laurylsulfate de sodium",
+    "aliases": [
+      "Sodium Lauryl Sulfate",
+      "CAS 151-21-3"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Nettoyant · Dénaturant · Émulsifiant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Nettoyant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "laurylsulfate de sodium (INCI : Sodium Lauryl Sulfate) — ingrédient cosmétique, nettoyant · dénaturant · émulsifiant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le laurylsulfate de sodium (LSS) ou dodécylsulfate de sodium (en anglais, sodium dodecyl sulfate ou SDS), plus connu sous sa dénomination INCI sodium lauryl sulfate ou SLS, est un détergent et tensioactif ionique fort, c",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Le laurylsulfate de sodium (LSS) ou dodécylsulfate de sodium (en anglais, sodium dodecyl sulfate ou SDS), plus connu sous sa dénomination INCI sodium lauryl sulfate ou SLS, est un détergent et tensioactif ionique fort, couramment utilisé en biochimie et biologie moléculaire. Il est utilisé dans les produits ménagers tels que les dentifrices, shampooings, mousses à raser ou encore bains moussants pour ses effets épaississants et sa capacité à créer une mousse ; il est également repris comme additif alimentaire par le codex alimentaire (E487). Le SDS est utilisé aussi bien dans les procédés industriels que pour les produits cosmétiques destinés au grand public. Comme tous les détergents surfactants (incluant les savons), il enlève l’huile de la peau, et peut causer des irritations de la peau et des yeux."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : nettoyant · dénaturant · émulsifiant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Sodium Lauryl Sulfate"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "151-21-3"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "limonene-inci",
+    "refs": {
+      "pubchem": "Limonene",
+      "wikipediaFr": "Limonène",
+      "wikidata": "Q278809",
+      "cosing": "Limonene"
+    },
+    "name": "Limonene",
+    "aliases": [
+      "Limonene",
+      "CAS 138-86-3"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Deodorant · Parfumant · Solvant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Deodorant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Limonene (INCI : Limonene) — ingrédient cosmétique, deodorant · parfumant · solvant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le limonène, LIM, de formule brute C10H16, est un hydrocarbure terpénique présent dans de nombreuses huiles essentielles à partir desquelles il peut être obtenu par distillation.",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Le limonène, LIM, de formule brute C10H16, est un hydrocarbure terpénique présent dans de nombreuses huiles essentielles à partir desquelles il peut être obtenu par distillation. À température ambiante, c'est un liquide incolore à odeur brillante, fraîche et propre d'orange, caractéristique des agrumes. Le limonène est utilisé comme solvant dans les produits de nettoyage, la fabrication de produits alimentaires, la parfumerie et les produits d'hygiène, ainsi que comme insecticide. Le limonène tire son nom du citron qui, comme les autres agrumes, contient des quantités considérables de ce composé chimique, responsable en grande partie de leur parfum."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : deodorant · parfumant · solvant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Limonene"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "138-86-3"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "linalol-inci",
+    "refs": {
+      "pubchem": "Linalool",
+      "wikipediaFr": "Linalol",
+      "wikidata": "Q410932",
+      "cosing": "Linalool"
+    },
+    "name": "Linalol",
+    "aliases": [
+      "Linalool",
+      "CAS 78-70-6"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Deodorant · Parfumant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Deodorant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Linalol (INCI : Linalool) — ingrédient cosmétique, deodorant · parfumant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le linalol ou linalool (3,7-diméthyl-1,6-octadién-3-ol) est un alcool terpénique, alcool tertiaire, insaturé, possédant une odeur florale et fraîche.",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Le linalol ou linalool (3,7-diméthyl-1,6-octadién-3-ol) est un alcool terpénique, alcool tertiaire, insaturé, possédant une odeur florale et fraîche. On le retrouve notamment dans une majorité d'huiles essentielles notamment celles de lavande, de bergamote, de bois de rose, dont il est le composant majeur, et de menthe. Ce composé organique est faiblement soluble dans l'eau. Ce monoterpénoïde existe sous la forme de deux énantiomères, R et S, en fonction de la configuration du carbone 3."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : deodorant · parfumant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Linalool"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "78-70-6"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "menthol-inci",
+    "refs": {
+      "pubchem": "Menthol",
+      "wikipediaFr": "Menthol",
+      "wikidata": "Q407418",
+      "cosing": "Menthol"
+    },
+    "name": "Menthol",
+    "aliases": [
+      "Menthol",
+      "CAS 1490-04-6 / 2216-51-5 / 89-78-1 / 15356-70-4"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Dénaturant · Masquant · Refreshing",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Dénaturant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Menthol (INCI : Menthol) — ingrédient cosmétique, dénaturant · masquant · refreshing.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le menthol est un composé organique covalent obtenu soit par synthèse, soit par extraction à partir de l'huile essentielle de menthe poivrée ou d'autres huiles essentielles de menthe.",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Le menthol est un composé organique covalent obtenu soit par synthèse, soit par extraction à partir de l'huile essentielle de menthe poivrée ou d'autres huiles essentielles de menthe. Le stéréoisomère le plus courant du menthol est le (–)-menthol, de configuration (1R,2S,5R). Il appartient à la famille des monoterpénols. À température ambiante (20 à 25 °C), il se trouve sous forme de cristaux, d'une couleur blanc cireux."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : dénaturant · masquant · refreshing."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Menthol"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "1490-04-6 / 2216-51-5 / 89-78-1 / 15356-70-4"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "methylparaben-inci",
+    "refs": {
+      "pubchem": "Methylparaben",
+      "wikidata": "Q229987",
+      "cosing": "Methylparaben"
+    },
+    "name": "méthylparaben",
+    "aliases": [
+      "Methylparaben",
+      "CAS 99-76-3"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Conservateur",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Conservateur"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "méthylparaben (INCI : Methylparaben) — ingrédient cosmétique, conservateur.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "méthylparaben (INCI : Methylparaben) est un ingrédient cosmétique courant (conservateur).",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "méthylparaben (INCI : Methylparaben) est un ingrédient cosmétique de fonction « Conservateur », autorisé dans l'Union européenne.",
+      "Les données présentées proviennent des bases publiques (Open Beauty Facts, CosIng)."
+    ],
+    "role": [
+      "Fonction cosmétique : conservateur."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Methylparaben"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "99-76-3"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "mica-inci",
+    "refs": {
+      "pubchem": "Mica",
+      "wikipediaFr": "Mica",
+      "wikidata": "Q114675",
+      "cosing": "Mica"
+    },
+    "name": "Mica",
+    "aliases": [
+      "Mica",
+      "CAS 12001-26-2"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Opacifiant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Opacifiant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Mica (INCI : Mica) — ingrédient cosmétique, opacifiant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Les micas sont une famille de minéraux, du groupe des silicates, sous-groupe des phyllosilicates, formés principalement de silicate d'aluminium et de potassium.",
+    "form": "poudre",
+    "formLabel": "Poudre minérale",
+    "definition": [
+      "Les micas sont une famille de minéraux, du groupe des silicates, sous-groupe des phyllosilicates, formés principalement de silicate d'aluminium et de potassium. Avec le quartz et le feldspath, les micas sont l'un des constituants du granite."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : opacifiant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Mica"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "12001-26-2"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "niacinamide-inci",
+    "refs": {
+      "pubchem": "Niacinamide",
+      "wikipediaFr": "Nicotinamide",
+      "wikidata": "Q192423",
+      "cosing": "Niacinamide"
+    },
+    "name": "Niacinamide",
+    "aliases": [
+      "Niacinamide",
+      "CAS 98-92-0"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Lissant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Lissant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Niacinamide (INCI : Niacinamide) — ingrédient cosmétique, lissant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le nicotinamide, aussi connu sous le nom de niacinamide, est un dérivé de l'acide nicotinique. Le nicotinamide est une vitamine hydrosoluble et fait partie du groupe de vitamines B.",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Le nicotinamide, aussi connu sous le nom de niacinamide, est un dérivé de l'acide nicotinique. Le nicotinamide est une vitamine hydrosoluble et fait partie du groupe de vitamines B. L'acide nicotinique, aussi connu sous le nom de niacine, est converti en nicotinamide in vivo. Bien que les deux aient les mêmes fonctions en tant que vitamines, le nicotinamide n'a pas les effets pharmacologiques et toxiques de la niacine. Ainsi le nicotinamide ne réduit pas le taux de cholestérol."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : lissant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Niacinamide"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "98-92-0"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "oxyde-de-zinc-inci",
+    "refs": {
+      "pubchem": "Zinc Oxide",
+      "wikipediaFr": "Oxyde de zinc",
+      "wikidata": "Q190077",
+      "cosing": "Zinc Oxide"
+    },
+    "name": "oxyde de zinc",
+    "aliases": [
+      "Zinc Oxide",
+      "CAS 1314-13-2"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Agent de charge · Cosmetic colorant · Protecteur cutané",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Agent de charge"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "oxyde de zinc (INCI : Zinc Oxide) — ingrédient cosmétique, agent de charge · cosmetic colorant · protecteur cutané.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "L’oxyde de zinc est un composé chimique d'oxygène et de zinc, corps ionique de formule chimique ZnO.",
+    "form": "poudre",
+    "formLabel": "Poudre blanche",
+    "definition": [
+      "L’oxyde de zinc est un composé chimique d'oxygène et de zinc, corps ionique de formule chimique ZnO."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : agent de charge · cosmetic colorant · protecteur cutané."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Zinc Oxide"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "1314-13-2"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "panthenol-inci",
+    "refs": {
+      "pubchem": "Panthenol",
+      "wikipediaFr": "Vitamine B5",
+      "wikidata": "Q179894",
+      "cosing": "Panthenol"
+    },
+    "name": "Panthenol",
+    "aliases": [
+      "Panthenol",
+      "CAS 81-13-0 / 16485-10-2"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Antistatique · Soin capillaire · Agent de soin de la peau",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Antistatique"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Panthenol (INCI : Panthenol) — ingrédient cosmétique, antistatique · soin capillaire · agent de soin de la peau.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "La vitamine B5, correspondant à l’acide pantothénique, est une vitamine hydrosoluble de la famille des vitamines B.",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "La vitamine B5, correspondant à l’acide pantothénique, est une vitamine hydrosoluble de la famille des vitamines B. C'est un précurseur métabolique de la coenzyme A, essentielle à la synthèse et au métabolisme des protéines, des glucides et des lipides."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : antistatique · soin capillaire · agent de soin de la peau."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Panthenol"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "81-13-0 / 16485-10-2"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "parfum-inci",
+    "refs": {
+      "pubchem": "Parfum",
+      "wikipediaFr": "Parfum",
+      "wikidata": "Q131746",
+      "cosing": "Parfum"
+    },
+    "name": "Parfum",
+    "aliases": [
+      "Parfum"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Deodorant · Masquant · Parfumant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Deodorant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Parfum (INCI : Parfum) — ingrédient cosmétique, deodorant · masquant · parfumant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Un parfum est une odeur ou plus souvent une composition odorante plus ou moins persistante naturellement émise par une plante, un animal, un champignon ou un environnement.",
+    "form": "liquide",
+    "formLabel": "Liquide odorant",
+    "definition": [
+      "Un parfum est une odeur ou plus souvent une composition odorante plus ou moins persistante naturellement émise par une plante, un animal, un champignon ou un environnement. Dans la nature, les parfums sont souvent des messages chimiques et biochimiques, et notamment des phéromones ou phytohormones. Il peut aussi s'agir de l'émanation d'une substance naturelle (un extrait de fleur par exemple) ou créée ou recréée à partir de différents arômes, solvants et fixatifs destinés à un usage cosmétique ou à parfumer des objets, des animaux ou l'air intérieur. Il est alors généralement fabriqué à partir d'essences végétales et/ou de molécules synthétiques."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : deodorant · masquant · parfumant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Parfum"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "phenoxyethanol-inci",
+    "refs": {
+      "pubchem": "Phenoxyethanol",
+      "wikipediaFr": "2-Phénoxyéthanol",
+      "wikidata": "Q418038",
+      "cosing": "Phenoxyethanol"
+    },
+    "name": "phénoxyéthanol",
+    "aliases": [
+      "Phenoxyethanol",
+      "CAS 122-99-6"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Conservateur",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Conservateur"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "phénoxyéthanol (INCI : Phenoxyethanol) — ingrédient cosmétique, conservateur.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le 2-phénoxyéthanol est un éther de glycol aromatique de formule semi-développée C6H5O-CH2-CH2OH utilisé dans les produits dermatologiques tels que les crèmes pour la peau et les crèmes solaires pour ses propriétés d'age",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Le 2-phénoxyéthanol est un éther de glycol aromatique de formule semi-développée C6H5O-CH2-CH2OH utilisé dans les produits dermatologiques tels que les crèmes pour la peau et les crèmes solaires pour ses propriétés d'agent de conservation et de solvant."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : conservateur."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Phenoxyethanol"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "122-99-6"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "propyleneglycol-inci",
+    "refs": {
+      "pubchem": "Propylene Glycol",
+      "wikidata": "Q161495",
+      "cosing": "Propylene Glycol"
+    },
+    "name": "propylèneglycol",
+    "aliases": [
+      "Propylene Glycol",
+      "CAS 57-55-6"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Humectant · Agent de soin de la peau · Solvant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Humectant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "propylèneglycol (INCI : Propylene Glycol) — ingrédient cosmétique, humectant · agent de soin de la peau · solvant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "propylèneglycol (INCI : Propylene Glycol) est un ingrédient cosmétique courant (humectant · agent de soin de la peau · solvant).",
+    "form": "liquide",
+    "formLabel": "Liquide incolore",
+    "definition": [
+      "propylèneglycol (INCI : Propylene Glycol) est un ingrédient cosmétique de fonction « Humectant · Agent de soin de la peau · Solvant », autorisé dans l'Union européenne.",
+      "Les données présentées proviennent des bases publiques (Open Beauty Facts, CosIng)."
+    ],
+    "role": [
+      "Fonction cosmétique : humectant · agent de soin de la peau · solvant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Propylene Glycol"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "57-55-6"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "propylparabene-inci",
+    "refs": {
+      "pubchem": "Propylparaben",
+      "wikipediaFr": "4-Hydroxybenzoate de propyle",
+      "wikidata": "Q511627",
+      "cosing": "Propylparaben"
+    },
+    "name": "propylparabène",
+    "aliases": [
+      "Propylparaben",
+      "CAS 94-13-3"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Parfumant · Conservateur",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Parfumant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "propylparabène (INCI : Propylparaben) — ingrédient cosmétique, parfumant · conservateur.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le 4-hydroxybenzoate de propyle ou propylparabène est un composé organique de la famille des parabènes.",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Le 4-hydroxybenzoate de propyle ou propylparabène est un composé organique de la famille des parabènes. Il existe à l’état naturel dans de nombreuses plantes et chez quelques insectes, mais on le synthétise pour l’industrie des cosmétiques, la pharmacie et l’industrie agro-alimentaire. C’est un conservateur (E216) que l'on trouve fréquemment dans les cosmétiques à base d’eau, comme les crèmes, lotions, shampooings et produits de bains, car il est hydrosoluble."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : parfumant · conservateur."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Propylparaben"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "94-13-3"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "retinol-inci",
+    "refs": {
+      "pubchem": "Retinol",
+      "wikipediaFr": "Rétinol",
+      "wikidata": "Q424976",
+      "cosing": "Retinol"
+    },
+    "name": "Rétinol",
+    "aliases": [
+      "Retinol",
+      "CAS 68-26-8 / 11103-57-4"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Agent de soin de la peau",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Agent de soin de la peau"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Rétinol (INCI : Retinol) — ingrédient cosmétique, agent de soin de la peau.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le rétinol est l'une des trois formes disponibles de la vitamine A, avec le rétinal et l'acide rétinoïque. Il fait partie de la classe des rétinoïdes de première génération. Le rétinol est hydrophobe.",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Le rétinol est l'une des trois formes disponibles de la vitamine A, avec le rétinal et l'acide rétinoïque. Il fait partie de la classe des rétinoïdes de première génération. Le rétinol est hydrophobe. Il peut être synthétisé à partir de l'isoprène."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : agent de soin de la peau."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Retinol"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "68-26-8 / 11103-57-4"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "sodium-hyaluronate-inci",
+    "refs": {
+      "pubchem": "Sodium Hyaluronate",
+      "wikidata": "Q3143635",
+      "cosing": "Sodium Hyaluronate"
+    },
+    "name": "Sodium Hyaluronate",
+    "aliases": [
+      "Sodium Hyaluronate",
+      "CAS 9067-32-7"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Humectant · Agent de soin de la peau",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Humectant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Sodium Hyaluronate (INCI : Sodium Hyaluronate) — ingrédient cosmétique, humectant · agent de soin de la peau.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Sodium Hyaluronate (INCI : Sodium Hyaluronate) est un ingrédient cosmétique courant (humectant · agent de soin de la peau).",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Sodium Hyaluronate (INCI : Sodium Hyaluronate) est un ingrédient cosmétique de fonction « Humectant · Agent de soin de la peau », autorisé dans l'Union européenne.",
+      "Les données présentées proviennent des bases publiques (Open Beauty Facts, CosIng)."
+    ],
+    "role": [
+      "Fonction cosmétique : humectant · agent de soin de la peau."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Sodium Hyaluronate"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "9067-32-7"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "sorbate-de-potassium-inci",
+    "refs": {
+      "pubchem": "Potassium Sorbate",
+      "wikipediaFr": "Sorbate de potassium",
+      "wikidata": "Q410744",
+      "cosing": "Potassium Sorbate"
+    },
+    "name": "Sorbate de potassium",
+    "aliases": [
+      "Potassium Sorbate",
+      "CAS 24634-61-5 / 590-00-1"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Conservateur",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Conservateur"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Sorbate de potassium (INCI : Potassium Sorbate) — ingrédient cosmétique, conservateur.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le sorbate de potassium (E202) est un additif alimentaire, plus précisément un agent conservateur. Chimiquement, c'est un sel de potassium de l'acide sorbique (E200).",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Le sorbate de potassium (E202) est un additif alimentaire, plus précisément un agent conservateur. Chimiquement, c'est un sel de potassium de l'acide sorbique (E200). Il est synthétisé chimiquement et on le retrouve dans de nombreux aliments tels que les yaourts aux fruits, les sauces, les boissons ou encore certains beurres allégés."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : conservateur."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Potassium Sorbate"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "24634-61-5 / 590-00-1"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "squalane-inci",
+    "refs": {
+      "pubchem": "Squalane",
+      "wikidata": "Q380055",
+      "cosing": "Squalane"
+    },
+    "name": "Squalane",
+    "aliases": [
+      "Squalane",
+      "CAS 111-01-3"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Émollient · Soin capillaire · Refatting",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Émollient"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Squalane (INCI : Squalane) — ingrédient cosmétique, émollient · soin capillaire · refatting.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Squalane (INCI : Squalane) est un ingrédient cosmétique courant (émollient · soin capillaire · refatting).",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Squalane (INCI : Squalane) est un ingrédient cosmétique de fonction « Émollient · Soin capillaire · Refatting », autorisé dans l'Union européenne.",
+      "Les données présentées proviennent des bases publiques (Open Beauty Facts, CosIng)."
+    ],
+    "role": [
+      "Fonction cosmétique : émollient · soin capillaire · refatting."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Squalane"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "111-01-3"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "talc-inci",
+    "refs": {
+      "pubchem": "Talc",
+      "wikipediaFr": "Talc",
+      "wikidata": "Q134583",
+      "cosing": "Talc"
+    },
+    "name": "Talc",
+    "aliases": [
+      "Talc",
+      "CAS 14807-96-6"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Abrasif · Absorbent · Antiagglomérant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Abrasif"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Talc (INCI : Talc) — ingrédient cosmétique, abrasif · absorbent · antiagglomérant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le talc est une espèce minérale composée de silicate de magnésium doublement hydroxylé de formule Mg3Si4O10(OH)2, pouvant contenir des traces de nickel, de fer, d'aluminium, de calcium, de sodium et d'autres silicates ma",
+    "form": "poudre",
+    "formLabel": "Poudre",
+    "definition": [
+      "Le talc est une espèce minérale composée de silicate de magnésium doublement hydroxylé de formule Mg3Si4O10(OH)2, pouvant contenir des traces de nickel, de fer, d'aluminium, de calcium, de sodium et d'autres silicates magnésiens comme l'amiante."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : abrasif · absorbent · antiagglomérant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Talc"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "14807-96-6"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "tocopherol-inci",
+    "refs": {
+      "pubchem": "Tocopherol",
+      "wikidata": "Q141180",
+      "cosing": "Tocopherol"
+    },
+    "name": "Tocopherol",
+    "aliases": [
+      "Tocopherol",
+      "CAS 54-28-4 -gamma-/ 16698-35-4-beta- / 10191-41-0-DL- / 119-13-1 / 1406-18-4 / 1406-66-2 / 2074-53-5 -DL- / 59-02-9 -D-/7616-22-0"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Antioxydant · Masquant · Agent de soin de la peau",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Antioxydant"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "Tocopherol (INCI : Tocopherol) — ingrédient cosmétique, antioxydant · masquant · agent de soin de la peau.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Tocopherol (INCI : Tocopherol) est un ingrédient cosmétique courant (antioxydant · masquant · agent de soin de la peau).",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Tocopherol (INCI : Tocopherol) est un ingrédient cosmétique de fonction « Antioxydant · Masquant · Agent de soin de la peau », autorisé dans l'Union européenne.",
+      "Les données présentées proviennent des bases publiques (Open Beauty Facts, CosIng)."
+    ],
+    "role": [
+      "Fonction cosmétique : antioxydant · masquant · agent de soin de la peau."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Tocopherol"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "54-28-4 -gamma-/ 16698-35-4-beta- / 10191-41-0-DL- / 119-13-1 / 1406-18-4 / 1406-66-2 / 2074-53-5 -DL- / 59-02-9 -D-/7616-22-0"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "uree-inci",
+    "refs": {
+      "pubchem": "Urea",
+      "wikipediaFr": "Urée",
+      "wikidata": "Q48318",
+      "cosing": "Urea"
+    },
+    "name": "urée",
+    "aliases": [
+      "Urea",
+      "CAS 57-13-6"
+    ],
+    "domains": [
+      "cosmétique"
+    ],
+    "family": "Antistatique · Tampon (pH) · Humectant",
+    "tags": [
+      "Ingrédient cosmétique",
+      "Antistatique"
+    ],
+    "status": "Ingrédient cosmétique d'usage courant, autorisé dans l'Union européenne.",
+    "summary": "urée (INCI : Urea) — ingrédient cosmétique, antistatique · tampon (ph) · humectant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le terme urée désigne à la fois un composé chimique particulier et un ensemble de composés organiques : l'urée ou carbamide (DCI) est le composé CO(NH2)2 ; les urées sont les dérivés de l'urée de formule générale (R1,R2)",
+    "form": "indetermine",
+    "formLabel": "Forme non documentée",
+    "definition": [
+      "Le terme urée désigne à la fois un composé chimique particulier et un ensemble de composés organiques : l'urée ou carbamide (DCI) est le composé CO(NH2)2 ; les urées sont les dérivés de l'urée de formule générale (R1,R2)N−CO−N(R3,R4). L'urée joue un rôle important dans le métabolisme des composés azotés chez les animaux et est la principale substance contenant de l'azote dans l'urine des espèces urotéliques comme les mammifères. C'est un solide incolore et inodore, hautement soluble dans l'eau, et pratiquement non toxique (DL50 de 15 g/kg chez le rat). Dissoute dans l'eau, elle n'est ni acide ni basique."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction cosmétique : antistatique · tampon (ph) · humectant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Statut UE (cosmétique)",
+        "value": "Autorisé"
+      },
+      {
+        "label": "Référence INCI",
+        "value": "Urea"
+      },
+      {
+        "label": "Numéro CAS",
+        "value": "57-13-6"
+      }
+    ],
+    "compatibility": {
+      "vegan": "à-vérifier",
+      "halal": "à-vérifier",
+      "casher": "à-vérifier",
+      "allergenes": "Non documenté automatiquement — à vérifier selon la source."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  }
+]
