@@ -25,16 +25,16 @@ import {
   Share,
   ShieldCheck,
 } from "@/components/icons";
-import {
-  domainLabel,
-  getAllSlugs,
-  getIngredientBySlug,
-  getRelated,
-} from "@/lib/ingredients";
+import { domainLabel, getIngredientBySlug, getRelated } from "@/lib/ingredients";
+import { ingredients as curatedFixture } from "@/data/ingredients";
 
-export async function generateStaticParams() {
-  const slugs = await getAllSlugs();
-  return slugs.map((slug) => ({ slug }));
+// Les fiches non pré-générées sont rendues à la demande (ISR) au premier accès.
+export const dynamicParams = true;
+
+// On ne pré-génère au build que les entrées curatées (les autres feraient
+// autant d'appels PubChem/Wikipédia — rendu à la demande, mis en cache).
+export function generateStaticParams() {
+  return curatedFixture.map((i) => ({ slug: i.slug }));
 }
 
 export async function generateMetadata({
@@ -400,11 +400,11 @@ export default async function IngredientPage({
                     desc="Référentiel cosmétique INCI"
                   />
                 )}
-                {external.wikipedia?.wikidata && (
+                {(ingredient.refs.wikidata ?? external.wikipedia?.wikidata) && (
                   <SourceLink
-                    href={`https://www.wikidata.org/wiki/${external.wikipedia.wikidata}`}
+                    href={`https://www.wikidata.org/wiki/${ingredient.refs.wikidata ?? external.wikipedia?.wikidata}`}
                     name="Wikidata"
-                    desc={external.wikipedia.wikidata}
+                    desc={ingredient.refs.wikidata ?? external.wikipedia?.wikidata ?? ""}
                   />
                 )}
               </ul>

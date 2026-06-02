@@ -1,7 +1,15 @@
 import { DatabaseSync } from "node:sqlite";
 import { ingredients } from "@/data/ingredients";
+import generatedAdditives from "@/data/additives.generated.json";
 import type { Ingredient } from "@/data/types";
 import { SCHEMA } from "./schema";
+
+// Catalogue complet = additifs ingérés (Open Food Facts) + entrées curatées.
+// Les curatées sont insérées en dernier → elles priment en cas de collision de slug.
+const CATALOGUE: Ingredient[] = [
+  ...(generatedAdditives as unknown as Ingredient[]),
+  ...ingredients,
+];
 
 // Accès bas niveau à la base SQLite (moteur natif node:sqlite, Node ≥ 22).
 //
@@ -41,7 +49,7 @@ function seed(database: DatabaseSync) {
   );
   database.exec("BEGIN");
   try {
-    for (const ing of ingredients) stmt.run(...rowValues(ing));
+    for (const ing of CATALOGUE) stmt.run(...rowValues(ing));
     database.exec("COMMIT");
   } catch (err) {
     database.exec("ROLLBACK");

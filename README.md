@@ -44,6 +44,24 @@ chimique » de type fiche de laboratoire, sur un **motif hexagonal** discret —
 [components/Signature.tsx](components/Signature.tsx),
 [components/ChemicalIdentityCard.tsx](components/ChemicalIdentityCard.tsx).
 
+## Ingestion (V2 — additifs alimentaires)
+
+Le catalogue est enrichi par **ingestion automatisée** depuis la taxonomie
+**Open Food Facts** :
+
+```bash
+npm run ingest:additives   # → data/additives.generated.json (versionné)
+```
+
+- Produit ~466 additifs E (nom FR, fonction, compatibilité vegan, Wikidata, EFSA),
+  conformes au type `Ingredient`. Fichier **JSON versionné** (pas de binaire).
+- Les E-numbers déjà curatés à la main (E330, E951, E211, E422, E322) sont
+  ignorés : la version riche prime.
+- Au seed, la couche DB **fusionne** additifs ingérés + entrées curatées.
+- Faits 100 % automatisés ; champs éditoriaux = amorces honnêtes à enrichir.
+- Pré-rendu au build limité aux entrées curatées ; les autres fiches sont
+  rendues **à la demande (ISR)** et mises en cache au premier accès.
+
 ## Architecture des données (V1.1)
 
 L'accès aux substances passe par une **couche repository asynchrone** au-dessus

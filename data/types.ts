@@ -101,6 +101,8 @@ export interface ExternalRefs {
   offAdditive?: string;
   // Référence INCI pour CosIng (base cosmétique UE).
   cosing?: string;
+  // Identifiant Wikidata (ex. « Q159683 »), clé de jointure entre bases.
+  wikidata?: string;
 }
 
 // Soit des notes documentées, soit une absence assumée de données.
