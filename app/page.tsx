@@ -27,6 +27,7 @@ export default async function HomePage() {
       <header className="mx-auto flex w-full max-w-doc items-center justify-between px-6 py-5 sm:px-10">
         <Logo />
         <nav className="hidden items-center gap-7 text-[0.92rem] font-medium text-body sm:flex">
+          <Link className="transition-colors hover:text-brand-deep" href="/scan">Scanner</Link>
           <Link className="transition-colors hover:text-brand-deep" href="/liste">Additifs E</Link>
           <Link className="transition-colors hover:text-brand-deep" href="/ingredients">Ingrédients</Link>
           <Link className="transition-colors hover:text-brand-deep" href="/categories">Catégories</Link>
@@ -55,6 +56,13 @@ export default async function HomePage() {
           <div className="mt-9">
             <SearchField suggestions={suggestions} index={index} />
           </div>
+
+          <p className="mt-7 text-[0.9rem] text-muted">
+            ou{" "}
+            <Link href="/scan" className="font-semibold text-brand-deep underline decoration-brand-sage underline-offset-4 hover:text-ok">
+              scannez l&apos;étiquette d&apos;un produit
+            </Link>
+          </p>
         </div>
       </main>
 

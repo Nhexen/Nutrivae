@@ -1,0 +1,1398 @@
+[
+  {
+    "slug": "2-butoxyethanol-menager",
+    "refs": {
+      "pubchem": "2-butoxyethanol",
+      "wikipediaFr": "2-Butoxyéthanol",
+      "wikidata": "Q421557"
+    },
+    "name": "2-Butoxyéthanol",
+    "aliases": [
+      "2-Butoxyethanol"
+    ],
+    "domains": [
+      "ménager",
+      "chimique"
+    ],
+    "family": "Solvant",
+    "tags": [
+      "Produit ménager",
+      "Solvant"
+    ],
+    "status": "Substance nocive : étiquetage et conditions d'emploi encadrés (CLP / REACH).",
+    "summary": "2-Butoxyéthanol — usage ménager, solvant.",
+    "regulatoryStatus": "restreint",
+    "controversy": "avis-en-cours",
+    "contraindications": [],
+    "plain": "Le 2-butoxyéthanol est un éther de glycol de formule BuOC2H4OH (Bu = CH3CH2CH2CH2). Il prend la forme d’un liquide incolore avec une odeur suave proche de l’éther diéthylique.",
+    "form": "liquide",
+    "formLabel": "Liquide",
+    "definition": [
+      "Le 2-butoxyéthanol est un éther de glycol de formule BuOC2H4OH (Bu = CH3CH2CH2CH2). Il prend la forme d’un liquide incolore avec une odeur suave proche de l’éther diéthylique. C’est un éther butylique de l’éthylène glycol. Il est utilisé surtout comme solvant."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction principale : solvant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage réglementé"
+      },
+      {
+        "label": "Famille",
+        "value": "Solvant"
+      },
+      {
+        "label": "Restriction",
+        "value": "Substance nocive : étiquetage et conditions d'emploi encadrés (CLP / REACH).",
+        "risk": "warn"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Substance sensibilisante possible — voir restriction."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "acide-sulfamique-menager",
+    "refs": {
+      "pubchem": "sulfamic acid",
+      "wikipediaFr": "Acide sulfamique",
+      "wikidata": "Q412304"
+    },
+    "name": "Acide sulfamique",
+    "aliases": [
+      "Sulfamic Acid"
+    ],
+    "domains": [
+      "ménager"
+    ],
+    "family": "Détartrant",
+    "tags": [
+      "Produit ménager",
+      "Détartrant"
+    ],
+    "status": "Substance d'usage courant dans les produits d'entretien.",
+    "summary": "Acide sulfamique — usage ménager, détartrant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "L'acide sulfamique, également appelé acide sulfamidique, acide aminosulfonique, acide amidosulfonique ou encore acide amidosulfurique, est un composé chimique de formule HOSO2NH2.",
+    "form": "cristaux",
+    "formLabel": "Cristaux blancs",
+    "definition": [
+      "L'acide sulfamique, également appelé acide sulfamidique, acide aminosulfonique, acide amidosulfonique ou encore acide amidosulfurique, est un composé chimique de formule HOSO2NH2. C'est un solide cristallin blanc et stable, soluble dans l'eau, où il s'hydrolyse lentement en bisulfate d'ammonium (NH4)HSO4. Il fond vers 205 °C, et se décompose en eau H2O, trioxyde de soufre SO3, dioxyde de soufre SO2 et diazote N2 à plus haute température."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction principale : détartrant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage courant autorisé"
+      },
+      {
+        "label": "Famille",
+        "value": "Détartrant"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Sans objet pour un usage non alimentaire."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "chlorure-de-benzalkonium-menager",
+    "refs": {
+      "pubchem": "benzalkonium chloride",
+      "wikipediaFr": "Chlorure de benzalkonium",
+      "wikidata": "Q108126784"
+    },
+    "name": "Chlorure de benzalkonium",
+    "aliases": [
+      "Benzalkonium Chloride"
+    ],
+    "domains": [
+      "ménager",
+      "chimique"
+    ],
+    "family": "Désinfectant (ammonium quaternaire)",
+    "tags": [
+      "Produit ménager",
+      "Désinfectant (ammonium quaternaire)"
+    ],
+    "status": "Substance d'usage courant dans les produits d'entretien.",
+    "summary": "Chlorure de benzalkonium — usage ménager, désinfectant (ammonium quaternaire).",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le chlorure de benzalkonium, aussi connu sous le nom de chlorure d'alkyldiméthylbenzylammonium et ADBAC, est un mélange de chlorures d'alkylbenzyldiméthylammonium avec des chaînes carbonées de longueur variable.",
+    "form": "liquide",
+    "formLabel": "Liquide",
+    "definition": [
+      "Le chlorure de benzalkonium, aussi connu sous le nom de chlorure d'alkyldiméthylbenzylammonium et ADBAC, est un mélange de chlorures d'alkylbenzyldiméthylammonium avec des chaînes carbonées de longueur variable. Ce produit est un agent de surface cationique de la famille des ammoniums quaternaires."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction principale : désinfectant (ammonium quaternaire)."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage courant autorisé"
+      },
+      {
+        "label": "Famille",
+        "value": "Désinfectant (ammonium quaternaire)"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Sans objet pour un usage non alimentaire."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "chlorure-de-didecyldimethylammonium-menager",
+    "refs": {
+      "pubchem": "didecyldimethylammonium chloride",
+      "wikipediaFr": "Chlorure de didécyldiméthylammonium",
+      "wikidata": "Q418930"
+    },
+    "name": "Chlorure de didécyldiméthylammonium",
+    "aliases": [
+      "Didecyldimethylammonium Chloride"
+    ],
+    "domains": [
+      "ménager"
+    ],
+    "family": "Désinfectant (ammonium quaternaire)",
+    "tags": [
+      "Produit ménager",
+      "Désinfectant (ammonium quaternaire)"
+    ],
+    "status": "Substance d'usage courant dans les produits d'entretien.",
+    "summary": "Chlorure de didécyldiméthylammonium — usage ménager, désinfectant (ammonium quaternaire).",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le chlorure de didécyldiméthylammonium est un sel, le chlorure d'un alkylammonium de formule semi-développée (CH3)2N(C10H21)2Cl.",
+    "form": "liquide",
+    "formLabel": "Liquide",
+    "definition": [
+      "Le chlorure de didécyldiméthylammonium est un sel, le chlorure d'un alkylammonium de formule semi-développée (CH3)2N(C10H21)2Cl. C'est un produit biocide polyvalent à large spectre utilisé en tant que désinfectant, antiseptique, antibactérien, antifongique, algicide... Il est utilisé comme désinfectant dans de nombreux domaines : en milieu hospitalier, restauration collective... Il est aussi utilisé comme algicide, par exemple dans l'entretien des piscines..."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction principale : désinfectant (ammonium quaternaire)."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage courant autorisé"
+      },
+      {
+        "label": "Famille",
+        "value": "Désinfectant (ammonium quaternaire)"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Sans objet pour un usage non alimentaire."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "cocamidopropyl-betaine-menager",
+    "refs": {
+      "pubchem": "cocamidopropyl betaine"
+    },
+    "name": "Cocamidopropyl bétaïne",
+    "aliases": [
+      "Cocamidopropyl Betaine"
+    ],
+    "domains": [
+      "ménager"
+    ],
+    "family": "Tensioactif doux",
+    "tags": [
+      "Produit ménager",
+      "Tensioactif doux"
+    ],
+    "status": "Substance d'usage courant dans les produits d'entretien.",
+    "summary": "Cocamidopropyl bétaïne — usage ménager, tensioactif doux.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Cocamidopropyl bétaïne est une substance d'entretien courante (tensioactif doux).",
+    "form": "liquide",
+    "formLabel": "Liquide visqueux",
+    "definition": [
+      "Cocamidopropyl bétaïne est une substance de la famille « Tensioactif doux », employée dans les produits d'entretien.",
+      "Les données présentées proviennent des bases publiques de référence."
+    ],
+    "role": [
+      "Fonction principale : tensioactif doux."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage courant autorisé"
+      },
+      {
+        "label": "Famille",
+        "value": "Tensioactif doux"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Sans objet pour un usage non alimentaire."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "dodecylbenzenesulfonate-de-sodium-menager",
+    "refs": {
+      "pubchem": "sodium dodecylbenzenesulfonate",
+      "wikipediaFr": "Dodécylbenzènesulfonate de sodium",
+      "wikidata": "Q418417"
+    },
+    "name": "Dodécylbenzènesulfonate de sodium",
+    "aliases": [
+      "Sodium Dodecylbenzenesulfonate"
+    ],
+    "domains": [
+      "ménager"
+    ],
+    "family": "Tensioactif",
+    "tags": [
+      "Produit ménager",
+      "Tensioactif"
+    ],
+    "status": "Substance d'usage courant dans les produits d'entretien.",
+    "summary": "Dodécylbenzènesulfonate de sodium — usage ménager, tensioactif.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le dodécylbenzènesulfonate de sodium représente une série de composés organiques de formule C12H25C6H4SO3Na. Il s'agit d'un sel doté de propriétés tensioactives.",
+    "form": "poudre",
+    "formLabel": "Poudre / pâte",
+    "definition": [
+      "Le dodécylbenzènesulfonate de sodium représente une série de composés organiques de formule C12H25C6H4SO3Na. Il s'agit d'un sel doté de propriétés tensioactives. C'est un composant majeur de nombreux détergents."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction principale : tensioactif."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage courant autorisé"
+      },
+      {
+        "label": "Famille",
+        "value": "Tensioactif"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Sans objet pour un usage non alimentaire."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "edetate-de-tetrasodium-menager",
+    "refs": {
+      "pubchem": "tetrasodium EDTA"
+    },
+    "name": "Édétate de tétrasodium",
+    "aliases": [
+      "Tetrasodium Edta"
+    ],
+    "domains": [
+      "ménager"
+    ],
+    "family": "Chélateur (séquestrant)",
+    "tags": [
+      "Produit ménager",
+      "Chélateur (séquestrant)"
+    ],
+    "status": "Substance d'usage courant dans les produits d'entretien.",
+    "summary": "Édétate de tétrasodium — usage ménager, chélateur (séquestrant).",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Édétate de tétrasodium est une substance d'entretien courante (chélateur (séquestrant)).",
+    "form": "poudre",
+    "formLabel": "Poudre blanche",
+    "definition": [
+      "Édétate de tétrasodium est une substance de la famille « Chélateur (séquestrant) », employée dans les produits d'entretien.",
+      "Les données présentées proviennent des bases publiques de référence."
+    ],
+    "role": [
+      "Fonction principale : chélateur (séquestrant)."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage courant autorisé"
+      },
+      {
+        "label": "Famille",
+        "value": "Chélateur (séquestrant)"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Sans objet pour un usage non alimentaire."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "glutaraldehyde-menager",
+    "refs": {
+      "pubchem": "glutaraldehyde",
+      "wikipediaFr": "Glutaraldéhyde",
+      "wikidata": "Q416475"
+    },
+    "name": "Glutaraldéhyde",
+    "aliases": [
+      "Glutaraldehyde"
+    ],
+    "domains": [
+      "ménager",
+      "chimique"
+    ],
+    "family": "Désinfectant",
+    "tags": [
+      "Produit ménager",
+      "Désinfectant"
+    ],
+    "status": "Biocide sensibilisant : usage encadré (règlement biocides UE).",
+    "summary": "Glutaraldéhyde — usage ménager, désinfectant.",
+    "regulatoryStatus": "restreint",
+    "controversy": "avis-en-cours",
+    "contraindications": [],
+    "plain": "Le glutaraldéhyde est une substance utilisée pour la fixation des protéines et la stérilisation mais aussi dans certains processus industriels.",
+    "form": "liquide",
+    "formLabel": "Liquide (solution)",
+    "definition": [
+      "Le glutaraldéhyde est une substance utilisée pour la fixation des protéines et la stérilisation mais aussi dans certains processus industriels."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction principale : désinfectant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage réglementé"
+      },
+      {
+        "label": "Famille",
+        "value": "Désinfectant"
+      },
+      {
+        "label": "Restriction",
+        "value": "Biocide sensibilisant : usage encadré (règlement biocides UE).",
+        "risk": "warn"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Substance sensibilisante possible — voir restriction."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "hypochlorite-de-calcium-menager",
+    "refs": {
+      "pubchem": "calcium hypochlorite",
+      "wikipediaFr": "Hypochlorite de calcium",
+      "wikidata": "Q407300"
+    },
+    "name": "Hypochlorite de calcium",
+    "aliases": [
+      "Calcium Hypochlorite"
+    ],
+    "domains": [
+      "ménager"
+    ],
+    "family": "Désinfectant · Agent de blanchiment",
+    "tags": [
+      "Produit ménager",
+      "Désinfectant"
+    ],
+    "status": "Substance d'usage courant dans les produits d'entretien.",
+    "summary": "Hypochlorite de calcium — usage ménager, désinfectant · agent de blanchiment.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "L'hypochlorite de calcium Ca(ClO)2 est couramment utilisé lors de la stérilisation d'explants végétaux, en vue de la mise en culture in vitro. La solution peut être utilisée à différentes concentrations.",
+    "form": "poudre",
+    "formLabel": "Poudre blanche",
+    "definition": [
+      "L'hypochlorite de calcium Ca(ClO)2 est couramment utilisé lors de la stérilisation d'explants végétaux, en vue de la mise en culture in vitro. La solution peut être utilisée à différentes concentrations. Il est aussi utilisé comme désinfectant pour piscine et comme agent de blanchiment."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction principale : désinfectant · agent de blanchiment."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage courant autorisé"
+      },
+      {
+        "label": "Famille",
+        "value": "Désinfectant · Agent de blanchiment"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Sans objet pour un usage non alimentaire."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "hypochlorite-de-sodium-menager",
+    "refs": {
+      "pubchem": "sodium hypochlorite",
+      "wikipediaFr": "Hypochlorite de sodium",
+      "wikidata": "Q407204"
+    },
+    "name": "Hypochlorite de sodium",
+    "aliases": [
+      "Sodium Hypochlorite"
+    ],
+    "domains": [
+      "ménager",
+      "chimique"
+    ],
+    "family": "Désinfectant · Agent de blanchiment",
+    "tags": [
+      "Produit ménager",
+      "Désinfectant"
+    ],
+    "status": "Substance d'usage courant dans les produits d'entretien.",
+    "summary": "Hypochlorite de sodium — usage ménager, désinfectant · agent de blanchiment.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "L’hypochlorite de sodium est un composé chimique de formule brute NaClO.",
+    "form": "liquide",
+    "formLabel": "Liquide (eau de Javel)",
+    "definition": [
+      "L’hypochlorite de sodium est un composé chimique de formule brute NaClO. C'est un solide blanc très instable couramment utilisé en solution aqueuse comme agent désinfectant et agent de blanchiment, notamment sous forme d'eau de Javel pour un usage domestique. Sous forme solide anhydre, il tend à se dismuter en oxygène O2, chlorure de sodium NaCl et chlorate de sodium NaClO3 : 2 NaClO → 2 NaCl + O2. 3 NaClO → 2 NaCl + NaClO3."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction principale : désinfectant · agent de blanchiment."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage courant autorisé"
+      },
+      {
+        "label": "Famille",
+        "value": "Désinfectant · Agent de blanchiment"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Sans objet pour un usage non alimentaire."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "laureth-sulfate-de-sodium-menager",
+    "refs": {
+      "pubchem": "sodium laureth sulfate",
+      "wikipediaFr": "Laureth sulfate de sodium",
+      "wikidata": "Q412561"
+    },
+    "name": "Laureth sulfate de sodium",
+    "aliases": [
+      "Sodium Laureth Sulfate"
+    ],
+    "domains": [
+      "ménager"
+    ],
+    "family": "Tensioactif",
+    "tags": [
+      "Produit ménager",
+      "Tensioactif"
+    ],
+    "status": "Substance d'usage courant dans les produits d'entretien.",
+    "summary": "Laureth sulfate de sodium — usage ménager, tensioactif.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le lauryl éther sulfate de sodium ou laureth sulfate de sodium (SLES), plus connu sous sa dénomination INCI sodium laureth sulfate (SLES), est un détergent et tensioactif ionique fort, couramment utilisé en biochimie et",
+    "form": "liquide",
+    "formLabel": "Liquide visqueux",
+    "definition": [
+      "Le lauryl éther sulfate de sodium ou laureth sulfate de sodium (SLES), plus connu sous sa dénomination INCI sodium laureth sulfate (SLES), est un détergent et tensioactif ionique fort, couramment utilisé en biochimie et biologie moléculaire. C'est un liquide visqueux et incolore."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction principale : tensioactif."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage courant autorisé"
+      },
+      {
+        "label": "Famille",
+        "value": "Tensioactif"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Sans objet pour un usage non alimentaire."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "methylchloroisothiazolinone-menager",
+    "refs": {
+      "pubchem": "methylchloroisothiazolinone"
+    },
+    "name": "Méthylchloroisothiazolinone",
+    "aliases": [
+      "Methylchloroisothiazolinone"
+    ],
+    "domains": [
+      "ménager"
+    ],
+    "family": "Conservateur",
+    "tags": [
+      "Produit ménager",
+      "Conservateur"
+    ],
+    "status": "Allergène de contact : usage et concentration réglementés dans l'UE.",
+    "summary": "Méthylchloroisothiazolinone — usage ménager, conservateur.",
+    "regulatoryStatus": "restreint",
+    "controversy": "avis-en-cours",
+    "contraindications": [],
+    "plain": "Méthylchloroisothiazolinone est une substance d'entretien courante (conservateur).",
+    "form": "liquide",
+    "formLabel": "Liquide (solution)",
+    "definition": [
+      "Méthylchloroisothiazolinone est une substance de la famille « Conservateur », employée dans les produits d'entretien.",
+      "Les données présentées proviennent des bases publiques de référence."
+    ],
+    "role": [
+      "Fonction principale : conservateur."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage réglementé"
+      },
+      {
+        "label": "Famille",
+        "value": "Conservateur"
+      },
+      {
+        "label": "Restriction",
+        "value": "Allergène de contact : usage et concentration réglementés dans l'UE.",
+        "risk": "warn"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Substance sensibilisante possible — voir restriction."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "methylisothiazolinone-menager",
+    "refs": {
+      "pubchem": "methylisothiazolinone",
+      "wikipediaFr": "Méthylisothiazolinone",
+      "wikidata": "Q423870"
+    },
+    "name": "Méthylisothiazolinone",
+    "aliases": [
+      "Methylisothiazolinone"
+    ],
+    "domains": [
+      "ménager"
+    ],
+    "family": "Conservateur",
+    "tags": [
+      "Produit ménager",
+      "Conservateur"
+    ],
+    "status": "Allergène de contact : concentration réglementée dans l'UE.",
+    "summary": "Méthylisothiazolinone — usage ménager, conservateur.",
+    "regulatoryStatus": "restreint",
+    "controversy": "avis-en-cours",
+    "contraindications": [],
+    "plain": "La méthylisothiazolinone, MIT ou MI, est un puissant biocide et conservateur du groupe des isothiazolinones, utilisée dans les produits de soins et de nombreux autres produits (peintures notamment) depuis 2005.",
+    "form": "liquide",
+    "formLabel": "Liquide (solution)",
+    "definition": [
+      "La méthylisothiazolinone, MIT ou MI, est un puissant biocide et conservateur du groupe des isothiazolinones, utilisée dans les produits de soins et de nombreux autres produits (peintures notamment) depuis 2005. C'est un produit allergène, source d'eczéma allergique chronique (y compris pour les produits rinçables, et avec de nombreuses rechutes)."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction principale : conservateur."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage réglementé"
+      },
+      {
+        "label": "Famille",
+        "value": "Conservateur"
+      },
+      {
+        "label": "Restriction",
+        "value": "Allergène de contact : concentration réglementée dans l'UE.",
+        "risk": "warn"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Substance sensibilisante possible — voir restriction."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "monoethanolamine-menager",
+    "refs": {
+      "pubchem": "ethanolamine",
+      "wikipediaFr": "Éthanolamine",
+      "wikidata": "Q410387"
+    },
+    "name": "Monoéthanolamine",
+    "aliases": [
+      "Ethanolamine"
+    ],
+    "domains": [
+      "ménager",
+      "chimique"
+    ],
+    "family": "Agent alcalin · Solvant",
+    "tags": [
+      "Produit ménager",
+      "Agent alcalin"
+    ],
+    "status": "Substance d'usage courant dans les produits d'entretien.",
+    "summary": "Monoéthanolamine — usage ménager, agent alcalin · solvant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "L'éthanolamine, également appelée 2-aminoéthanol ou monoéthanolamine, est un composé organique de formule chimique NH2CH2CH2OH qui est à la fois une amine primaire par son groupe amine –NH2 et un alcool primaire par son",
+    "form": "liquide",
+    "formLabel": "Liquide visqueux",
+    "definition": [
+      "L'éthanolamine, également appelée 2-aminoéthanol ou monoéthanolamine, est un composé organique de formule chimique NH2CH2CH2OH qui est à la fois une amine primaire par son groupe amine –NH2 et un alcool primaire par son groupe hydroxyle –OH. À l'instar des autres amines, la monoéthanolamine se comporte en base faible. L'éthanolamine est un liquide toxique, inflammable, corrosif, incolore et visqueux ; son odeur est similaire à celle de l'ammoniac. L'éthanolamine est communément appelée monoéthanolamine afin de la distinguer de la diéthanolamine et de la triéthanolamine. Le groupe éthanolamine est le deuxième plus fréquent groupe de tête des phospholipides, des substances que l'on retrouve dans les membranes biologiques."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction principale : agent alcalin · solvant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage courant autorisé"
+      },
+      {
+        "label": "Famille",
+        "value": "Agent alcalin · Solvant"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Sans objet pour un usage non alimentaire."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "perborate-de-sodium-menager",
+    "refs": {
+      "pubchem": "sodium perborate",
+      "wikipediaFr": "Perborate de sodium",
+      "wikidata": "Q415507"
+    },
+    "name": "Perborate de sodium",
+    "aliases": [
+      "Sodium Perborate"
+    ],
+    "domains": [
+      "ménager"
+    ],
+    "family": "Agent de blanchiment",
+    "tags": [
+      "Produit ménager",
+      "Agent de blanchiment"
+    ],
+    "status": "Borate classé toxique pour la reproduction (CMR) : usage restreint dans l'UE (REACH).",
+    "summary": "Perborate de sodium — usage ménager, agent de blanchiment.",
+    "regulatoryStatus": "restreint",
+    "controversy": "avis-en-cours",
+    "contraindications": [],
+    "plain": "Le perborate de sodium est un composé chimique de formule NaBO3. Il s'agit d'un solide blanc, cristallisé et anhydre, très instable.",
+    "form": "poudre",
+    "formLabel": "Poudre blanche",
+    "definition": [
+      "Le perborate de sodium est un composé chimique de formule NaBO3. Il s'agit d'un solide blanc, cristallisé et anhydre, très instable. Il existe aussi le perborate monohydraté de sodium, composé monohydratée de formule brute NaBO3·H2O, également écrite NaBO2(OH)2, ou dimérisée en Na2B2O4(OH)4. C'est une poudre, de masse molaire 99,83 g/mol (ou le double pour son dimère)."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction principale : agent de blanchiment."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage réglementé"
+      },
+      {
+        "label": "Famille",
+        "value": "Agent de blanchiment"
+      },
+      {
+        "label": "Restriction",
+        "value": "Borate classé toxique pour la reproduction (CMR) : usage restreint dans l'UE (REACH).",
+        "risk": "warn"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Substance sensibilisante possible — voir restriction."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "percarbonate-de-sodium-menager",
+    "refs": {
+      "pubchem": "sodium percarbonate",
+      "wikipediaFr": "Percarbonate de sodium",
+      "wikidata": "Q420070"
+    },
+    "name": "Percarbonate de sodium",
+    "aliases": [
+      "Sodium Percarbonate"
+    ],
+    "domains": [
+      "ménager"
+    ],
+    "family": "Agent de blanchiment",
+    "tags": [
+      "Produit ménager",
+      "Agent de blanchiment"
+    ],
+    "status": "Substance d'usage courant dans les produits d'entretien.",
+    "summary": "Percarbonate de sodium — usage ménager, agent de blanchiment.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le percarbonate de sodium, parfois appelé peroxyhydrate de carbonate de sodium, carbonate de sodium peroxyhydraté ou percarbonate de soude, est un composé chimique de formule 2Na2CO3·3H2O2.",
+    "form": "poudre",
+    "formLabel": "Poudre blanche",
+    "definition": [
+      "Le percarbonate de sodium, parfois appelé peroxyhydrate de carbonate de sodium, carbonate de sodium peroxyhydraté ou percarbonate de soude, est un composé chimique de formule 2Na2CO3·3H2O2."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction principale : agent de blanchiment."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage courant autorisé"
+      },
+      {
+        "label": "Famille",
+        "value": "Agent de blanchiment"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Sans objet pour un usage non alimentaire."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "peroxyde-d-hydrogene-menager",
+    "refs": {
+      "pubchem": "hydrogen peroxide",
+      "wikipediaFr": "Peroxyde d'hydrogène",
+      "wikidata": "Q171877"
+    },
+    "name": "Peroxyde d'hydrogène",
+    "aliases": [
+      "Hydrogen Peroxide"
+    ],
+    "domains": [
+      "ménager",
+      "chimique"
+    ],
+    "family": "Désinfectant · Agent de blanchiment",
+    "tags": [
+      "Produit ménager",
+      "Désinfectant"
+    ],
+    "status": "Substance d'usage courant dans les produits d'entretien.",
+    "summary": "Peroxyde d'hydrogène — usage ménager, désinfectant · agent de blanchiment.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le peroxyde d'hydrogène est un composé chimique de formule H2O2. Sa solution aqueuse est appelée eau oxygénée. Elle est incolore et légèrement plus visqueuse que l'eau.",
+    "form": "liquide",
+    "formLabel": "Liquide (eau oxygénée)",
+    "definition": [
+      "Le peroxyde d'hydrogène est un composé chimique de formule H2O2. Sa solution aqueuse est appelée eau oxygénée. Elle est incolore et légèrement plus visqueuse que l'eau. Le peroxyde d'hydrogène possède à la fois des propriétés oxydantes par exemple vis-à-vis d'ions iodure et des propriétés réductrices par exemple vis-à-vis des ions permanganate."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction principale : désinfectant · agent de blanchiment."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage courant autorisé"
+      },
+      {
+        "label": "Famille",
+        "value": "Désinfectant · Agent de blanchiment"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Sans objet pour un usage non alimentaire."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "propan-2-ol-menager",
+    "refs": {
+      "pubchem": "isopropyl alcohol",
+      "wikipediaFr": "Alcool isopropylique",
+      "wikidata": "Q16392"
+    },
+    "name": "Propan-2-ol",
+    "aliases": [
+      "Isopropyl Alcohol"
+    ],
+    "domains": [
+      "ménager",
+      "chimique"
+    ],
+    "family": "Solvant · Désinfectant",
+    "tags": [
+      "Produit ménager",
+      "Solvant"
+    ],
+    "status": "Substance d'usage courant dans les produits d'entretien.",
+    "summary": "Propan-2-ol — usage ménager, solvant · désinfectant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "L'alcool isopropylique (aussi connu sous le nom non conforme d'isopropanol) est le nom commun du propan-2-ol, composé chimique incolore et inflammable dont la formule chimique est CH3CH(OH)-CH3.",
+    "form": "liquide",
+    "formLabel": "Liquide (alcool isopropylique)",
+    "definition": [
+      "L'alcool isopropylique (aussi connu sous le nom non conforme d'isopropanol) est le nom commun du propan-2-ol, composé chimique incolore et inflammable dont la formule chimique est CH3CH(OH)-CH3. C'est l'un des deux isomères du propanol (l'autre étant le propan-1-ol). Il est aussi connu sous son nom abrégé IPA (acronyme de l'anglais IsoPropyl Alcohol)."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction principale : solvant · désinfectant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage courant autorisé"
+      },
+      {
+        "label": "Famille",
+        "value": "Solvant · Désinfectant"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Sans objet pour un usage non alimentaire."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "savon-menager",
+    "refs": {
+      "pubchem": "soap",
+      "wikipediaFr": "Savon",
+      "wikidata": "Q34396"
+    },
+    "name": "Savon",
+    "aliases": [
+      "Soap"
+    ],
+    "domains": [
+      "ménager"
+    ],
+    "family": "Tensioactif",
+    "tags": [
+      "Produit ménager",
+      "Tensioactif"
+    ],
+    "status": "Substance d'usage courant dans les produits d'entretien.",
+    "summary": "Savon — usage ménager, tensioactif.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le savon est un produit liquide ou solide composé de molécules amphiphiles obtenues par réaction chimique entre un corps gras et une base forte, spécifiquement l'hydroxyde de sodium pour le savon ou l'hydroxyde de potass",
+    "form": "solide",
+    "formLabel": "Solide ou liquide",
+    "definition": [
+      "Le savon est un produit liquide ou solide composé de molécules amphiphiles obtenues par réaction chimique entre un corps gras et une base forte, spécifiquement l'hydroxyde de sodium pour le savon ou l'hydroxyde de potassium pour le savon noir, c'est le sel d'un corps gras et du potassium ou du sodium. Cette réaction est effectuée à chaud ou à froid. Son caractère amphiphile lui donne des propriétés caractéristiques, notamment la capacité de ses composants moléculaires à se placer à l'interface entre la phase aqueuse (solvant hydrophile) et la phase lipidique (graisse hydrophobe), la formation de mousse et la stabilisation d'émulsions utiles pour le lavage, molécules aussi utilisées comme épaississant entrant dans la composition de certains lubrifiants et de précurseurs de catalyseurs. Selon les périodes et les lieux, il a été considéré comme un produit cosmétique, « un produit d’hygiène et/ou comme un excipient ou encore comme une substance active, permettant la réalisation de médicaments ou de cosmétiques destinés à traiter aussi bien la gale que les brûlures, de réaliser des purges ou de mettre au point des préparations pour adoucir ou blanchir les mains ou pour allonger les cils »."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction principale : tensioactif."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage courant autorisé"
+      },
+      {
+        "label": "Famille",
+        "value": "Tensioactif"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Sans objet pour un usage non alimentaire."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "subtilisine-menager",
+    "refs": {
+      "pubchem": "subtilisin",
+      "wikipediaFr": "Subtilisine",
+      "wikidata": "Q83167403"
+    },
+    "name": "Subtilisine",
+    "aliases": [
+      "Subtilisin"
+    ],
+    "domains": [
+      "ménager"
+    ],
+    "family": "Enzyme (protéase)",
+    "tags": [
+      "Produit ménager",
+      "Enzyme (protéase)"
+    ],
+    "status": "Substance d'usage courant dans les produits d'entretien.",
+    "summary": "Subtilisine — usage ménager, enzyme (protéase).",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "La subtilisine est une protéase à sérine qui catalyse l'hydrolyse des protéines avec une faible spécificité en matière de liaison peptidique.",
+    "form": "poudre",
+    "formLabel": "Poudre / granulés",
+    "definition": [
+      "La subtilisine est une protéase à sérine qui catalyse l'hydrolyse des protéines avec une faible spécificité en matière de liaison peptidique. Elle agit préférentiellement à proximité d'un grand résidu d'acide aminé non chargé. Elle a été isolée à partir de Bacillus subtilis, d'où son nom, mais est également produite par d'autres bactéries, telles que Bacillus amyloliquefaciens. La subtilisine de B. subtilis est une protéine de 275 résidus d'acides aminés."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction principale : enzyme (protéase)."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage courant autorisé"
+      },
+      {
+        "label": "Famille",
+        "value": "Enzyme (protéase)"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Sans objet pour un usage non alimentaire."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "terebenthine-menager",
+    "refs": {
+      "pubchem": "turpentine",
+      "wikipediaFr": "Térébenthine",
+      "wikidata": "Q18603218"
+    },
+    "name": "Térébenthine",
+    "aliases": [
+      "Turpentine"
+    ],
+    "domains": [
+      "ménager",
+      "chimique"
+    ],
+    "family": "Solvant",
+    "tags": [
+      "Produit ménager",
+      "Solvant"
+    ],
+    "status": "Substance d'usage courant dans les produits d'entretien.",
+    "summary": "Térébenthine — usage ménager, solvant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "La térébenthine est une oléorésine récoltée à partir des arbres résineux, de couleur jaune ou brunâtre selon l'origine de l'arbre (le plus souvent une espèce de résineux d'Asie, d'Europe et d'Amérique).",
+    "form": "liquide",
+    "formLabel": "Liquide (essence)",
+    "definition": [
+      "La térébenthine est une oléorésine récoltée à partir des arbres résineux, de couleur jaune ou brunâtre selon l'origine de l'arbre (le plus souvent une espèce de résineux d'Asie, d'Europe et d'Amérique). Après purification et distillation, la térébenthine se sépare en deux parties : l'une solide et inodore, c'est la colophane ; l'autre liquide et odorante, c'est l'essence de térébenthine. La laque est aussi obtenue à partir d'oléorésines d'arbres asiatiques."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction principale : solvant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage courant autorisé"
+      },
+      {
+        "label": "Famille",
+        "value": "Solvant"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Sans objet pour un usage non alimentaire."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "tetraacetylethylenediamine-menager",
+    "refs": {
+      "pubchem": "tetraacetylethylenediamine",
+      "wikipediaFr": "Tétraacétyléthylènediamine",
+      "wikidata": "Q419209"
+    },
+    "name": "Tétraacétyléthylènediamine",
+    "aliases": [
+      "Tetraacetylethylenediamine"
+    ],
+    "domains": [
+      "ménager"
+    ],
+    "family": "Activateur de blanchiment",
+    "tags": [
+      "Produit ménager",
+      "Activateur de blanchiment"
+    ],
+    "status": "Substance d'usage courant dans les produits d'entretien.",
+    "summary": "Tétraacétyléthylènediamine — usage ménager, activateur de blanchiment.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "La tétraacétyléthylènediamine, généralement abrégée en TAED, est un composé organique de formule brute C10H16N2O4, qui a été produite par le groupe chimique Lever dès 1978.",
+    "form": "poudre",
+    "formLabel": "Poudre",
+    "definition": [
+      "La tétraacétyléthylènediamine, généralement abrégée en TAED, est un composé organique de formule brute C10H16N2O4, qui a été produite par le groupe chimique Lever dès 1978. Il s'agit d'un dérivé de l'éthylènediamine H2N–CH2–CH2–NH2 dans lequel les quatre atomes d'hydrogène des deux fonctions amine sont remplacés par des groupes acétyle –CO–CH3 ; elle est d'ailleurs fabriquée par acétylation de l'éthylènediamine. Donc elle est entièrement synthétique."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction principale : activateur de blanchiment."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage courant autorisé"
+      },
+      {
+        "label": "Famille",
+        "value": "Activateur de blanchiment"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Sans objet pour un usage non alimentaire."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "white-spirit-menager",
+    "refs": {
+      "pubchem": "white spirit",
+      "wikipediaFr": "Naphta lourd",
+      "wikidata": "Q1484569"
+    },
+    "name": "White-spirit",
+    "aliases": [
+      "White Spirit"
+    ],
+    "domains": [
+      "ménager",
+      "chimique"
+    ],
+    "family": "Solvant",
+    "tags": [
+      "Produit ménager",
+      "Solvant"
+    ],
+    "status": "Substance d'usage courant dans les produits d'entretien.",
+    "summary": "White-spirit — usage ménager, solvant.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Le naphta lourd, appelé aussi white spirit, distillat de pétrole, succédané d'essence de térébenthine ou encore diluant à peinture au Québec, est un produit raffiné de la distillation du pétrole.",
+    "form": "liquide",
+    "formLabel": "Liquide (solvant pétrolier)",
+    "definition": [
+      "Le naphta lourd, appelé aussi white spirit, distillat de pétrole, succédané d'essence de térébenthine ou encore diluant à peinture au Québec, est un produit raffiné de la distillation du pétrole. Ses principaux constituants sont des hydrocarbures paraffiniques de C8 à C12 (teneur comprise entre 40 et 60 %), des hydrocarbures cycloparaffiniques de C9 à C12 (teneur comprise entre 30 et 70 %) et des hydrocarbures aromatiques (teneur comprise entre 1 et 20 %, ne contient pas de benzène), soit de l'isooctane en mélange à d'autres produits."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction principale : solvant."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage courant autorisé"
+      },
+      {
+        "label": "Famille",
+        "value": "Solvant"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Sans objet pour un usage non alimentaire."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  },
+  {
+    "slug": "zeolithe-menager",
+    "refs": {
+      "pubchem": "zeolite",
+      "wikipediaFr": "Zéolithe",
+      "wikidata": "Q181332"
+    },
+    "name": "Zéolithe",
+    "aliases": [
+      "Zeolite"
+    ],
+    "domains": [
+      "ménager"
+    ],
+    "family": "Adoucisseur d'eau",
+    "tags": [
+      "Produit ménager",
+      "Adoucisseur d'eau"
+    ],
+    "status": "Substance d'usage courant dans les produits d'entretien.",
+    "summary": "Zéolithe — usage ménager, adoucisseur d'eau.",
+    "regulatoryStatus": "autorise",
+    "controversy": "aucune",
+    "contraindications": [],
+    "plain": "Une zéolithe, ou zéolite, est un minéral faisant partie d'un groupe de même nom de cristaux formés d'un squelette microporeux d'aluminosilicate, dont les espaces vides connectés sont initialement occupés par des cations",
+    "form": "poudre",
+    "formLabel": "Poudre minérale",
+    "definition": [
+      "Une zéolithe, ou zéolite, est un minéral faisant partie d'un groupe de même nom de cristaux formés d'un squelette microporeux d'aluminosilicate, dont les espaces vides connectés sont initialement occupés par des cations et des molécules d'eau. Les ions et les molécules d'eau sont mobiles au sein de la structure, ce qui permet d'une part des échanges ioniques, d'autre part une déshydratation partielle réversible, et la possibilité de remplacer l'eau par une autre phase adsorbée. Le groupe comprend un grand nombre d'alumosilicates de structure (et, rarement, de béryllosilicates, de zincosilicates, de béryllophosphates) constitués de tétraèdres liés par des coins et contenant des cations échangeables ; plusieurs de ces minéraux ont d'importantes applications techniques. Plusieurs sous-groupes sont distingués (par exemple le sous-groupe Natrolite)."
+    ],
+    "definitionSource": "wikipedia",
+    "role": [
+      "Fonction principale : adoucisseur d'eau."
+    ],
+    "foundIn": [],
+    "regulation": [
+      {
+        "label": "Cadre UE",
+        "value": "Usage courant autorisé"
+      },
+      {
+        "label": "Famille",
+        "value": "Adoucisseur d'eau"
+      }
+    ],
+    "compatibility": {
+      "vegan": "sans-objet",
+      "halal": "sans-objet",
+      "casher": "sans-objet",
+      "allergenes": "Sans objet pour un usage non alimentaire."
+    },
+    "science": {
+      "kind": "none",
+      "note": "Aucune synthèse n'a encore été rédigée pour cette entrée. Voir les sources ci-dessous."
+    },
+    "related": []
+  }
+]

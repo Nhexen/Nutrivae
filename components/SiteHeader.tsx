@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Logo } from "./Logo";
 
 const NAV = [
+  ["/scan", "Scanner"],
   ["/liste", "Additifs E"],
   ["/ingredients", "Ingrédients"],
   ["/categories", "Catégories"],

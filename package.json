@@ -3,20 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "description": "Nutrivae — base de connaissance des substances et ingrédients du quotidien.",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "ingest:additives": "node scripts/ingest-additives.mjs",
-    "ingest:cosmetics": "node scripts/ingest-cosmetics.mjs"
+    "ingest:cosmetics": "node scripts/ingest-cosmetics.mjs",
+    "ingest:household": "node scripts/ingest-household.mjs"
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.5.1",
     "next": "^16.2.7",
     "postgres": "^3.4.9",
     "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "react-dom": "19.0.0",
+    "tesseract.js": "^7.0.0"
   },
   "devDependencies": {
     "@types/node": "22.10.7",

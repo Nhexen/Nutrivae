@@ -69,6 +69,20 @@ npm run ingest:additives   # → data/additives.generated.json (versionné)
 - Au seed, la couche DB **fusionne** additifs ingérés + entrées curatées.
 - Pré-rendu au build limité aux entrées curatées ; les autres fiches en **ISR**.
 
+## Scanner une étiquette (`/scan`)
+
+Prototype (future app) : on photographie/importe une liste d'ingrédients, la
+**reconnaissance de texte s'exécute dans le navigateur** (Tesseract.js, aucune
+image envoyée), puis Nutrivae **reconnaît les substances connues** du catalogue et
+**signale celles à examiner** (interdites, sous conditions, controversées). Logique
+de correspondance pure dans `lib/scan.ts` (E-numbers + noms/alias, dédoublonnage).
+
+## Domaines couverts
+
+Alimentaire (additifs E), **cosmétique** (INCI, Open Beauty Facts) et **ménager**
+(substances d'entretien curatées : eau de Javel, percarbonate, tensioactifs,
+solvants, désinfectants…). ~580 entrées au total.
+
 ## Catégorisation & liste
 
 - **`/liste`** — la **liste complète et lisible des additifs E** (~471), classés par
@@ -132,6 +146,27 @@ Glycérine (E422), Lécithine (E322), Citric Acid (INCI), Sodium Lauryl Sulfate.
 
 > Les valeurs réglementaires de cette V1 sont indicatives et destinées à la
 > démonstration.
+
+## Déploiement (Vercel)
+
+L'application est prête pour Vercel — **aucune base externe requise** par défaut.
+
+1. **Importer le repo** sur Vercel (framework Next.js auto-détecté, `vercel.json` inclus).
+2. **Déployer.** Le store s'auto-adapte : si `node:sqlite` est indisponible sur le
+   runtime, l'app bascule automatiquement sur **PGlite** (Postgres embarqué WASM),
+   ensemencé en mémoire depuis le catalogue. Les fichiers WASM sont inclus via
+   `outputFileTracingIncludes`.
+
+**Pour une base persistante (recommandé en prod)** — un Postgres hébergé :
+
+| Variable | Valeur |
+|---|---|
+| `NUTRIVAE_STORE` | `postgres` |
+| `DATABASE_URL`   | `postgres://…` (Neon, Supabase…) |
+
+L'application crée le schéma et ensemence la base au premier démarrage (idempotent).
+Les pages ne changent pas : seule l'implémentation derrière `Store` diffère.
+Voir `.env.example`.
 
 ## Démarrage
 

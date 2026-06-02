@@ -1,13 +1,15 @@
 import { ingredients } from "@/data/ingredients";
 import generatedAdditives from "@/data/additives.generated.json";
 import generatedCosmetics from "@/data/cosmetics.generated.json";
+import generatedHousehold from "@/data/household.generated.json";
 import type { Ingredient } from "@/data/types";
 
-// Catalogue complet = additifs + cosmétiques ingérés + entrées curatées.
+// Catalogue complet = additifs + cosmétiques + ménager ingérés + entrées curatées.
 // Les curatées sont en dernier → elles priment en cas de collision de slug.
 export const CATALOGUE: Ingredient[] = [
   ...(generatedAdditives as unknown as Ingredient[]),
   ...(generatedCosmetics as unknown as Ingredient[]),
+  ...(generatedHousehold as unknown as Ingredient[]),
   ...ingredients,
 ];
 

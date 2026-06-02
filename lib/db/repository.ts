@@ -9,12 +9,25 @@ let storePromise: Promise<Store> | null = null;
 
 function getStore(): Promise<Store> {
   if (!storePromise) {
-    storePromise =
-      process.env.NUTRIVAE_STORE === "postgres"
-        ? import("./postgres-store").then((m) => m.createPostgresStore())
-        : import("./sqlite-store").then((m) => m.createSqliteStore());
+    const forced = process.env.NUTRIVAE_STORE;
+    if (forced === "postgres") storePromise = import("./postgres-store").then((m) => m.createPostgresStore());
+    else if (forced === "sqlite") storePromise = import("./sqlite-store").then((m) => m.createSqliteStore());
+    else storePromise = autoStore();
   }
   return storePromise;
+}
+
+// Sans variable d'environnement : SQLite si disponible (node:sqlite, Node ≥ 24),
+// sinon Postgres embarqué (PGlite) — utile là où node:sqlite est indisponible
+// (ex. runtime serverless sur une version de Node plus ancienne).
+async function autoStore(): Promise<Store> {
+  try {
+    const { DatabaseSync } = await import("node:sqlite");
+    new DatabaseSync(":memory:").close(); // sonde la disponibilité réelle
+    return (await import("./sqlite-store")).createSqliteStore();
+  } catch {
+    return (await import("./postgres-store")).createPostgresStore();
+  }
 }
 
 export async function allIngredients(): Promise<Ingredient[]> {
