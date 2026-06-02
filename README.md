@@ -65,8 +65,10 @@ npm run ingest:additives   # → data/additives.generated.json (versionné)
 - Au seed, la couche DB **fusionne** additifs ingérés + entrées curatées.
 - Pré-rendu au build limité aux entrées curatées ; les autres fiches en **ISR**.
 
-## Catégorisation
+## Catégorisation & liste
 
+- **`/liste`** — la **liste complète et lisible des additifs E** (~471), classés par
+  série (colorants, conservateurs, antioxydants…) avec pastille de statut UE.
 - `/categories` — hub : par **statut réglementaire** (autorisé / sous conditions /
   interdit), par **domaine d'usage**, par **état physique**, avec compteurs.
 - `/ingredients?statut=…&domaine=…&forme=…` — annuaire **filtrable par facettes**.

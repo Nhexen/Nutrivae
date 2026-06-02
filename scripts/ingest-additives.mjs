@@ -35,27 +35,54 @@ const REGULATORY = {
   "251": { status: "restreint", name: "Nitrate de sodium", family: "Conservateur", reason: "Doses maximales encadrées (nitrates)." },
   "252": { status: "restreint", name: "Nitrate de potassium", family: "Conservateur", reason: "Doses maximales encadrées (nitrates)." },
   "425": { status: "restreint", name: "Konjac", family: "Gélifiant", reason: "Interdit dans les confiseries gélifiées en mini-coupelles (risque d'étouffement)." },
+  "121": { status: "interdit", name: "Rouge citrus 2", family: "Colorant", reason: "Non autorisé comme additif alimentaire dans l'Union européenne." },
+  "125": { status: "interdit", name: "Ponceau SX", family: "Colorant", reason: "Non autorisé comme additif alimentaire dans l'Union européenne." },
+  "952": { status: "restreint", name: "Cyclamate", family: "Édulcorant", reason: "Autorisé sous conditions dans l'UE (doses encadrées) ; interdit aux États-Unis." },
 };
 
-// États physiques curatés (cas bien connus). Défaut : indéterminé.
+// États physiques curatés (cas bien établis). Défaut : indéterminé.
 const FORM = {
+  // Liquides
   "260": ["liquide", "Liquide (solution acide)"],
   "270": ["liquide", "Liquide sirupeux"],
   "280": ["liquide", "Liquide huileux"],
   "338": ["liquide", "Liquide visqueux"],
-  "1520": ["liquide", "Liquide incolore"],
+  "507": ["liquide", "Liquide (solution)"],
+  "513": ["liquide", "Liquide (solution)"],
   "1505": ["liquide", "Liquide incolore"],
-  "300": ["cristaux", "Poudre cristalline blanche"],
-  "296": ["cristaux", "Cristaux blancs"],
-  "334": ["cristaux", "Cristaux incolores"],
-  "621": ["cristaux", "Cristaux blancs"],
+  "1518": ["liquide", "Liquide incolore"],
+  "1520": ["liquide", "Liquide incolore"],
+  // Gaz
   "290": ["gaz", "Gaz"],
   "938": ["gaz", "Gaz"],
   "939": ["gaz", "Gaz"],
   "941": ["gaz", "Gaz"],
   "942": ["gaz", "Gaz"],
-  "171": ["poudre", "Poudre blanche"],
+  "948": ["gaz", "Gaz"],
+  "949": ["gaz", "Gaz"],
+  "943a": ["gaz", "Gaz"],
+  "944": ["gaz", "Gaz"],
+  // Cristaux
+  "296": ["cristaux", "Cristaux blancs"],
+  "300": ["cristaux", "Poudre cristalline blanche"],
+  "334": ["cristaux", "Cristaux incolores"],
+  "353": ["cristaux", "Cristaux"],
+  "363": ["cristaux", "Cristaux"],
+  "621": ["cristaux", "Cristaux blancs"],
+  "950": ["cristaux", "Poudre cristalline blanche"],
+  "954": ["cristaux", "Poudre cristalline blanche"],
+  "955": ["cristaux", "Poudre cristalline blanche"],
+  // Poudres notables
+  "100": ["poudre", "Poudre orangée"],
+  "102": ["poudre", "Poudre jaune"],
   "128": ["poudre", "Poudre rouge"],
+  "170": ["poudre", "Poudre blanche"],
+  "171": ["poudre", "Poudre blanche"],
+  "500": ["poudre", "Poudre blanche"],
+  "407": ["poudre", "Poudre"],
+  "412": ["poudre", "Poudre"],
+  "415": ["poudre", "Poudre"],
+  "440": ["poudre", "Poudre"],
 };
 
 const CLASS_FR = {
@@ -185,16 +212,23 @@ function buildEntry(num, frName, enName, family, wikidata, hasEfsa, vegan, summa
   }
   if (hasEfsa) regulation.push({ label: "Évaluation EFSA", value: "Documentée (voir sources)" });
 
+  const statusPhrase =
+    status === "interdit"
+      ? "aujourd'hui interdit comme additif alimentaire dans l'Union européenne"
+      : status === "restreint"
+        ? "autorisé sous conditions dans l'Union européenne"
+        : "autorisé comme additif alimentaire dans l'Union européenne";
+
   const definition = summary
     ? [summary.extract]
     : [
-        `${frName} (${eCode}) est répertorié comme additif alimentaire de la famille « ${family} ».`,
-        "Cette fiche est en cours de rédaction : les données factuelles proviennent des bases publiques associées.",
+        `${frName} (${eCode}) est un additif alimentaire ${statusPhrase}, classé dans la famille « ${family} ».`,
+        `Sa fonction technologique relève de la catégorie « ${family.toLowerCase()} ». Les données présentées proviennent des bases publiques de référence.`,
       ];
 
   const plain = summary
     ? firstSentence(summary.extract)
-    : `${frName} (${eCode}) est un additif alimentaire de la famille « ${family} ». Notice générée depuis les bases publiques, en cours d'enrichissement.`;
+    : `${frName} (${eCode}) est un additif alimentaire (${family.toLowerCase()}), ${statusPhrase}.`;
 
   const statusLine = reg
     ? reg.reason
