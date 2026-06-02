@@ -19,6 +19,7 @@ CREATE TABLE IF NOT EXISTS ingredients (
   found_in          TEXT NOT NULL,
   contraindications TEXT NOT NULL,
   definition        TEXT NOT NULL,
+  definition_source TEXT,
   role              TEXT NOT NULL,
   regulation        TEXT NOT NULL,
   compatibility     TEXT NOT NULL,

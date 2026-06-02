@@ -18,7 +18,14 @@ export type RegulatoryStatus = "autorise" | "restreint" | "interdit";
 export type ControversyLevel = "aucune" | "avis-en-cours" | "controverse";
 
 // État physique courant — base du visuel illustré (hero).
-export type PhysicalForm = "poudre" | "cristaux" | "liquide" | "pate" | "gaz" | "solide";
+export type PhysicalForm =
+  | "poudre"
+  | "cristaux"
+  | "liquide"
+  | "pate"
+  | "gaz"
+  | "solide"
+  | "indetermine";
 
 export interface Compatibility {
   vegan: CompatStatus;
@@ -78,6 +85,8 @@ export interface Ingredient {
   formLabel: string;
   // Bloc définition — encyclopédique.
   definition: string[];
+  // Provenance de la définition (pour l'attribution, ex. extrait Wikipédia).
+  definitionSource?: "wikipedia";
   // Bloc composition / rôle.
   role: string[];
   foundIn: string[];

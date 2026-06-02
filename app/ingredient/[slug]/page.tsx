@@ -258,6 +258,17 @@ export default async function IngredientPage({
                 </p>
               ))}
 
+              {ingredient.definitionSource === "wikipedia" && (
+                <a
+                  href={external.wikipedia?.url ?? `https://fr.wikipedia.org/wiki/${encodeURIComponent(ingredient.refs.wikipediaFr ?? ingredient.name)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex items-center gap-1 text-[0.74rem] font-medium text-muted hover:text-brand-deep"
+                >
+                  Définition d&apos;après Wikipédia (CC BY-SA) ↗
+                </a>
+              )}
+
               <div className="mt-4 flex flex-wrap gap-2">
                 {ingredient.domains.map((d) => (
                   <span key={d} className="inline-flex items-center gap-1.5 rounded-pill bg-info-soft px-3 py-1 text-[0.76rem] font-semibold text-[#2a63c4]">

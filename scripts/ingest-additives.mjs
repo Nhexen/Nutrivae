@@ -1,12 +1,11 @@
-// Ingestion V2 — additifs alimentaires depuis la taxonomie Open Food Facts.
+// Ingestion V3 — additifs alimentaires (Open Food Facts) enrichis.
 //
 //   node scripts/ingest-additives.mjs
 //
 // Produit data/additives.generated.json (versionné), conforme au type Ingredient.
-// Les faits proviennent des bases publiques ; les champs éditoriaux (plain,
-// definition, controverses) sont des amorces honnêtes, à enrichir.
-//
-// Les E-numbers déjà curatés à la main sont ignorés (la version riche prime).
+// V3 : définitions étoffées depuis Wikipédia FR (via le nom, repli Wikidata),
+// statuts réglementaires curatés (interdits / restreints UE & France), et états
+// physiques curatés pour les cas connus.
 
 import { writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
@@ -14,147 +13,279 @@ import { dirname, join } from "node:path";
 
 const TAXO_URL = "https://static.openfoodfacts.org/data/taxonomies/additives.json";
 const OUT = join(dirname(fileURLToPath(import.meta.url)), "..", "data", "additives.generated.json");
+const UA = "Nutrivae/0.3 (ingestion; contact@nutrivae.example)";
+const CONCURRENCY = 6;
 
-// E-numbers déjà documentés manuellement dans data/ingredients.ts (à ne pas écraser).
+// E-numbers déjà documentés à la main (la version riche prime).
 const CURATED_ENUMBERS = new Set(["330", "951", "211", "422", "322"]);
 
-// Classes fonctionnelles OFF (en:) → libellés français.
+// Statuts réglementaires curatés (faits documentés, UE / France).
+// num → { status, reason, name?, family? }  (name/family servent si l'entrée
+// est absente d'Open Food Facts et doit être créée).
+const REGULATORY = {
+  "171": { status: "interdit", name: "Dioxyde de titane", family: "Colorant", reason: "Interdit comme additif alimentaire dans l'Union européenne depuis 2022 (génotoxicité non exclue, avis EFSA 2021)." },
+  "128": { status: "interdit", name: "Rouge 2G", family: "Colorant", reason: "Interdit dans l'Union européenne depuis 2007 (formation d'aniline, avis EFSA)." },
+  "216": { status: "interdit", name: "p-hydroxybenzoate de propyle", family: "Conservateur", reason: "Retiré de la liste des additifs alimentaires autorisés dans l'UE (2006)." },
+  "217": { status: "interdit", name: "Sel sodique du p-hydroxybenzoate de propyle", family: "Conservateur", reason: "Retiré de la liste des additifs alimentaires autorisés dans l'UE (2006)." },
+  "924": { status: "interdit", name: "Bromate de potassium", family: "Agent de traitement de la farine", reason: "Non autorisé comme additif alimentaire dans l'UE (cancérogène)." },
+  "240": { status: "interdit", name: "Formaldéhyde", family: "Conservateur", reason: "Non autorisé comme additif alimentaire dans l'Union européenne." },
+  "123": { status: "restreint", name: "Amarante", family: "Colorant", reason: "Usage très restreint dans l'UE (limité à certaines boissons spiritueuses et œufs de poisson)." },
+  "249": { status: "restreint", name: "Nitrite de potassium", family: "Conservateur", reason: "Doses maximales encadrées (nitrites) ; abaissées en 2023." },
+  "250": { status: "restreint", name: "Nitrite de sodium", family: "Conservateur", reason: "Doses maximales encadrées (nitrites) ; abaissées en 2023." },
+  "251": { status: "restreint", name: "Nitrate de sodium", family: "Conservateur", reason: "Doses maximales encadrées (nitrates)." },
+  "252": { status: "restreint", name: "Nitrate de potassium", family: "Conservateur", reason: "Doses maximales encadrées (nitrates)." },
+  "425": { status: "restreint", name: "Konjac", family: "Gélifiant", reason: "Interdit dans les confiseries gélifiées en mini-coupelles (risque d'étouffement)." },
+};
+
+// États physiques curatés (cas bien connus). Défaut : indéterminé.
+const FORM = {
+  "260": ["liquide", "Liquide (solution acide)"],
+  "270": ["liquide", "Liquide sirupeux"],
+  "280": ["liquide", "Liquide huileux"],
+  "338": ["liquide", "Liquide visqueux"],
+  "1520": ["liquide", "Liquide incolore"],
+  "1505": ["liquide", "Liquide incolore"],
+  "300": ["cristaux", "Poudre cristalline blanche"],
+  "296": ["cristaux", "Cristaux blancs"],
+  "334": ["cristaux", "Cristaux incolores"],
+  "621": ["cristaux", "Cristaux blancs"],
+  "290": ["gaz", "Gaz"],
+  "938": ["gaz", "Gaz"],
+  "939": ["gaz", "Gaz"],
+  "941": ["gaz", "Gaz"],
+  "942": ["gaz", "Gaz"],
+  "171": ["poudre", "Poudre blanche"],
+  "128": ["poudre", "Poudre rouge"],
+};
+
 const CLASS_FR = {
-  colour: "Colorant",
-  preservative: "Conservateur",
-  antioxidant: "Antioxydant",
-  "acidity-regulator": "Régulateur d'acidité",
-  emulsifier: "Émulsifiant",
-  stabiliser: "Stabilisant",
-  thickener: "Épaississant",
-  "gelling-agent": "Gélifiant",
-  sweetener: "Édulcorant",
-  "flavour-enhancer": "Exhausteur de goût",
-  "raising-agent": "Poudre à lever",
-  "anti-caking-agent": "Antiagglomérant",
-  "glazing-agent": "Agent d'enrobage",
-  humectant: "Humectant",
-  "flour-treatment-agent": "Agent de traitement de la farine",
-  "firming-agent": "Affermissant",
-  sequestrant: "Séquestrant",
-  "foaming-agent": "Agent moussant",
-  "anti-foaming-agent": "Antimoussant",
-  "bulking-agent": "Agent de charge",
-  carrier: "Support",
-  propellant: "Gaz propulseur",
-  "packaging-gas": "Gaz d'emballage",
-  "modified-starch": "Amidon modifié",
-  "colour-retention-agent": "Stabilisateur de couleur",
+  colour: "Colorant", preservative: "Conservateur", antioxidant: "Antioxydant",
+  "acidity-regulator": "Régulateur d'acidité", emulsifier: "Émulsifiant",
+  stabiliser: "Stabilisant", thickener: "Épaississant", "gelling-agent": "Gélifiant",
+  sweetener: "Édulcorant", "flavour-enhancer": "Exhausteur de goût",
+  "raising-agent": "Poudre à lever", "anti-caking-agent": "Antiagglomérant",
+  "glazing-agent": "Agent d'enrobage", humectant: "Humectant",
+  "flour-treatment-agent": "Agent de traitement de la farine", "firming-agent": "Affermissant",
+  sequestrant: "Séquestrant", "foaming-agent": "Agent moussant",
+  "anti-foaming-agent": "Antimoussant", "bulking-agent": "Agent de charge",
+  carrier: "Support", propellant: "Gaz propulseur", "packaging-gas": "Gaz d'emballage",
+  "modified-starch": "Amidon modifié", "colour-retention-agent": "Stabilisateur de couleur",
 };
 
 function classLabel(raw) {
-  // raw : "en:colour, en:antioxidant"
   if (!raw) return null;
-  const labels = raw
-    .split(",")
-    .map((c) => c.trim().replace(/^en:/, ""))
+  const labels = raw.split(",").map((c) => c.trim().replace(/^en:/, ""))
     .map((c) => CLASS_FR[c] ?? c.replace(/-/g, " ").replace(/^\w/, (m) => m.toUpperCase()))
     .filter(Boolean);
   return labels.length ? [...new Set(labels)].join(" · ") : null;
 }
 
 function stripCode(name) {
-  // "E330 - Acide citrique" → "Acide citrique"
   if (!name) return null;
   return name.replace(/^E\d+[a-z]*\s*[-–]\s*/i, "").trim() || null;
 }
 
 function slugify(value) {
-  return value
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/(^-|-$)/g, "");
+  return value.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 }
 
 function compat(flag) {
   if (flag === "yes") return "oui";
   if (flag === "no") return "non";
-  if (flag === "maybe") return "à-vérifier";
   return "à-vérifier";
+}
+
+async function fetchJson(url) {
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const r = await fetch(url, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(20000) });
+      if (r.status === 429) {
+        await new Promise((res) => setTimeout(res, 1000 * (attempt + 1)));
+        continue;
+      }
+      if (!r.ok) return null;
+      return await r.json();
+    } catch {
+      await new Promise((res) => setTimeout(res, 500));
+    }
+  }
+  return null;
+}
+
+// Extraits Wikipédia FR en lot via l'API MediaWiki (suit les redirections).
+// Renvoie une Map titreOriginal → { title, extract, wikidata }.
+async function fetchExtracts(titles) {
+  const result = new Map();
+  const BATCH = 20;
+  const base = "https://fr.wikipedia.org/w/api.php";
+  for (let i = 0; i < titles.length; i += BATCH) {
+    const slice = titles.slice(i, i + BATCH);
+    const params = new URLSearchParams({
+      action: "query",
+      format: "json",
+      formatversion: "2",
+      redirects: "1",
+      prop: "extracts|pageprops",
+      exintro: "1",
+      explaintext: "1",
+      exsentences: "4",
+      ppprop: "wikibase_item",
+      titles: slice.join("|"),
+    });
+    const d = await fetchJson(`${base}?${params}`);
+    if (i % 100 === 0) console.log(`  … ${Math.min(i + BATCH, titles.length)}/${titles.length}`);
+    if (!d?.query) continue;
+
+    // Résolution titre demandé → titre final (normalisation puis redirection).
+    const norm = new Map((d.query.normalized ?? []).map((x) => [x.from, x.to]));
+    const redir = new Map((d.query.redirects ?? []).map((x) => [x.from, x.to]));
+    const byTitle = new Map((d.query.pages ?? []).map((p) => [p.title, p]));
+    const resolve = (t) => {
+      const a = norm.get(t) ?? t;
+      return redir.get(a) ?? a;
+    };
+    for (const t of slice) {
+      const page = byTitle.get(resolve(t));
+      if (page && !page.missing && page.extract && page.extract.length > 40) {
+        result.set(t, {
+          title: page.title,
+          extract: page.extract.replace(/\s+/g, " ").trim(),
+          wikidata: page.pageprops?.wikibase_item,
+        });
+      }
+    }
+  }
+  return result;
+}
+
+function firstSentence(text, max = 220) {
+  const cut = text.slice(0, max);
+  const stop = cut.lastIndexOf(". ");
+  return (stop > 60 ? cut.slice(0, stop + 1) : cut).trim();
+}
+
+function buildEntry(num, frName, enName, family, wikidata, hasEfsa, vegan, summary) {
+  const eCode = `E${num}`;
+  const reg = REGULATORY[num];
+  const status = reg?.status ?? "autorise";
+  const [form, formLabel] = FORM[num] ?? ["indetermine", "Forme non documentée"];
+
+  const regulation = [
+    { label: "Statut UE", value: status === "interdit" ? "Interdit" : status === "restreint" ? "Autorisé sous conditions" : "Autorisé" },
+    { label: "Numéro E", value: eCode },
+    { label: "Classe(s)", value: family },
+  ];
+  if (reg) {
+    regulation.push({
+      label: status === "interdit" ? "Interdiction" : "Restriction",
+      value: reg.reason,
+      risk: status === "interdit" ? "danger" : "warn",
+    });
+  }
+  if (hasEfsa) regulation.push({ label: "Évaluation EFSA", value: "Documentée (voir sources)" });
+
+  const definition = summary
+    ? [summary.extract]
+    : [
+        `${frName} (${eCode}) est répertorié comme additif alimentaire de la famille « ${family} ».`,
+        "Cette fiche est en cours de rédaction : les données factuelles proviennent des bases publiques associées.",
+      ];
+
+  const plain = summary
+    ? firstSentence(summary.extract)
+    : `${frName} (${eCode}) est un additif alimentaire de la famille « ${family} ». Notice générée depuis les bases publiques, en cours d'enrichissement.`;
+
+  const statusLine = reg
+    ? reg.reason
+    : "Additif alimentaire autorisé dans l'Union européenne.";
+
+  return {
+    slug: `${slugify(frName)}-${num}`,
+    refs: {
+      ...(enName ? { pubchem: enName } : {}),
+      offAdditive: `e${num}`,
+      ...(summary?.title ? { wikipediaFr: summary.title } : {}),
+      ...(wikidata ? { wikidata } : {}),
+    },
+    name: frName,
+    aliases: [eCode],
+    domains: ["alimentaire"],
+    family,
+    tags: ["Additif alimentaire", family],
+    status: statusLine,
+    summary: `${frName} (${eCode}) — additif alimentaire, ${family.toLowerCase()}.`,
+    regulatoryStatus: status,
+    controversy: reg ? (status === "interdit" ? "controverse" : "avis-en-cours") : "aucune",
+    contraindications: [],
+    plain,
+    form,
+    formLabel,
+    definition,
+    ...(summary ? { definitionSource: "wikipedia" } : {}),
+    role: [`Fonction technologique principale : ${family.toLowerCase()}.`],
+    foundIn: [],
+    regulation,
+    compatibility: {
+      vegan: compat(vegan),
+      halal: "à-vérifier",
+      casher: "à-vérifier",
+      allergenes: "Non documenté automatiquement — à vérifier selon la source.",
+    },
+    science: {
+      kind: "none",
+      note: "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Les évaluations de sécurité de référence sont accessibles via les sources ci-dessous.",
+    },
+    related: [],
+  };
 }
 
 async function main() {
   console.log("→ Téléchargement de la taxonomie Open Food Facts…");
-  const res = await fetch(TAXO_URL, { headers: { "User-Agent": "Nutrivae/0.2 (ingestion)" } });
-  if (!res.ok) throw new Error(`OFF taxonomy HTTP ${res.status}`);
-  const taxo = await res.json();
+  const taxo = await fetchJson(TAXO_URL);
+  if (!taxo) throw new Error("Taxonomie OFF inaccessible");
 
-  const out = [];
-  let skipped = 0;
-
+  const sources = [];
   for (const [key, entry] of Object.entries(taxo)) {
     const num = entry?.e_number?.en;
-    if (!num || !/^en:e\d+$/.test(key)) continue; // entrées canoniques uniquement
-    if (CURATED_ENUMBERS.has(num)) {
-      skipped++;
-      continue;
-    }
-
-    const eCode = `E${num}`;
-    const frName = stripCode(entry.name?.fr) ?? stripCode(entry.name?.en) ?? eCode;
-    const enName = stripCode(entry.name?.en);
-    const family = classLabel(entry.additives_classes?.en) ?? "Additif alimentaire";
-    const wikidata = entry.wikidata?.en;
-    const hasEfsa = Boolean(entry.efsa_evaluation?.en);
-
-    const regulation = [
-      { label: "Statut UE", value: "Autorisé" },
-      { label: "Numéro E", value: eCode },
-      { label: "Classe(s)", value: family },
-    ];
-    if (hasEfsa) regulation.push({ label: "Évaluation EFSA", value: "Documentée (voir sources)" });
-
-    out.push({
-      slug: `${slugify(frName)}-${num}`,
-      refs: {
-        ...(enName ? { pubchem: enName } : {}),
-        offAdditive: `e${num}`,
-        ...(wikidata ? { wikidata } : {}),
-      },
-      name: frName,
-      aliases: [eCode],
-      domains: ["alimentaire"],
-      family,
-      tags: ["Additif alimentaire", family],
-      status: "Additif alimentaire autorisé dans l'Union européenne.",
-      summary: `${frName} (${eCode}) — additif alimentaire, ${family.toLowerCase()}.`,
-      regulatoryStatus: "autorise",
-      controversy: "aucune",
-      contraindications: [],
-      plain: `${frName} (${eCode}) est un additif alimentaire autorisé dans l'Union européenne, de la famille « ${family} ». Cette notice est générée à partir des bases publiques et en cours d'enrichissement éditorial.`,
-      form: "solide",
-      formLabel: "Forme non précisée",
-      definition: [
-        `${frName} (${eCode}) est répertorié comme additif alimentaire autorisé dans l'Union européenne, de la famille « ${family} ».`,
-        "Cette fiche est en cours de rédaction : les données factuelles ci-dessous proviennent d'Open Food Facts et des bases publiques associées.",
-      ],
-      role: [`Fonction technologique principale : ${family.toLowerCase()}.`],
-      foundIn: [],
-      regulation,
-      compatibility: {
-        vegan: compat(entry.vegan?.en),
-        halal: "à-vérifier",
-        casher: "à-vérifier",
-        allergenes: "Non documenté automatiquement — à vérifier selon la source.",
-      },
-      science: {
-        kind: "none",
-        note: "Aucune synthèse de controverse n'a encore été rédigée pour cette entrée. Les évaluations de sécurité de référence sont accessibles via les sources ci-dessous.",
-      },
-      related: [],
+    if (!num || !/^en:e\d+$/.test(key)) continue;
+    if (CURATED_ENUMBERS.has(num)) continue;
+    sources.push({
+      num,
+      frName: stripCode(entry.name?.fr) ?? stripCode(entry.name?.en) ?? `E${num}`,
+      enName: stripCode(entry.name?.en),
+      family: classLabel(entry.additives_classes?.en) ?? "Additif alimentaire",
+      wikidata: entry.wikidata?.en,
+      hasEfsa: Boolean(entry.efsa_evaluation?.en),
+      vegan: entry.vegan?.en,
     });
   }
 
+  // Ajout des entrées réglementées absentes d'OFF (ex. additifs interdits).
+  const present = new Set(sources.map((s) => s.num));
+  for (const [num, reg] of Object.entries(REGULATORY)) {
+    if (!present.has(num) && reg.name) {
+      sources.push({ num, frName: reg.name, enName: null, family: reg.family ?? "Additif alimentaire", wikidata: undefined, hasEfsa: false, vegan: undefined });
+    }
+  }
+
+  console.log(`→ Enrichissement Wikipédia (lots) de ${sources.length} additifs…`);
+  const extracts = await fetchExtracts(sources.map((s) => s.frName));
+  let enriched = 0;
+  const out = sources.map((s) => {
+    const summary = extracts.get(s.frName) ?? null;
+    if (summary) enriched++;
+    return buildEntry(s.num, s.frName, s.enName, s.family, s.wikidata ?? summary?.wikidata, s.hasEfsa, s.vegan, summary);
+  });
+
   out.sort((a, b) => a.name.localeCompare(b.name, "fr"));
   await writeFile(OUT, JSON.stringify(out, null, 2) + "\n", "utf8");
-  console.log(`✓ ${out.length} additifs écrits dans data/additives.generated.json (${skipped} curatés ignorés).`);
+
+  const interdits = out.filter((o) => o.regulatoryStatus === "interdit").length;
+  const restreints = out.filter((o) => o.regulatoryStatus === "restreint").length;
+  console.log(`✓ ${out.length} additifs écrits.`);
+  console.log(`  • enrichis via Wikipédia : ${enriched}`);
+  console.log(`  • interdits : ${interdits} | restreints : ${restreints}`);
 }
 
 main().catch((err) => {

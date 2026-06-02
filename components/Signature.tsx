@@ -124,6 +124,14 @@ function FormIcon({ form, className = "h-full w-full" }: { form: PhysicalForm; c
           <path {...stroke} className="opacity-60" d="M20 34c2 3 6 3 8 0M14 30c1 2 3 2 4 0" />
         </svg>
       );
+    case "indetermine":
+      return (
+        <svg viewBox="0 0 48 48" className={className} aria-hidden>
+          <circle cx="24" cy="24" r="16" {...stroke} strokeDasharray="3 4" />
+          <path {...stroke} d="M20.5 19.5a3.5 3.5 0 1 1 5 3.2c-1 .6-1.5 1.2-1.5 2.5" />
+          <path {...stroke} d="M24 30.5h.02" />
+        </svg>
+      );
     default: // solide
       return (
         <svg viewBox="0 0 48 48" className={className} aria-hidden>

@@ -44,7 +44,7 @@ chimique » de type fiche de laboratoire, sur un **motif hexagonal** discret —
 [components/Signature.tsx](components/Signature.tsx),
 [components/ChemicalIdentityCard.tsx](components/ChemicalIdentityCard.tsx).
 
-## Ingestion (V2 — additifs alimentaires)
+## Ingestion (V2 / V3 — additifs alimentaires)
 
 Le catalogue est enrichi par **ingestion automatisée** depuis la taxonomie
 **Open Food Facts** :
@@ -53,14 +53,23 @@ Le catalogue est enrichi par **ingestion automatisée** depuis la taxonomie
 npm run ingest:additives   # → data/additives.generated.json (versionné)
 ```
 
-- Produit ~466 additifs E (nom FR, fonction, compatibilité vegan, Wikidata, EFSA),
+- ~466 additifs E (nom FR, fonction, compatibilité vegan, Wikidata, EFSA),
   conformes au type `Ingredient`. Fichier **JSON versionné** (pas de binaire).
-- Les E-numbers déjà curatés à la main (E330, E951, E211, E422, E322) sont
-  ignorés : la version riche prime.
+- **V3 — définitions étoffées** : extraits **Wikipédia FR** récupérés en lot via
+  l'API MediaWiki (redirections suivies), ~294/466 enrichis, avec attribution
+  CC BY-SA. Repli honnête (« notice en cours ») pour le reste.
+- **V3 — statuts réglementaires curatés** : interdits (E171, E128, E216/217,
+  E240, E924…) et restreints (E123, nitrites/nitrates E249–252, E425…) avec
+  motif et surlignage de risque. États physiques curatés pour les cas connus.
+- Les E-numbers déjà curatés à la main (E330, E951, E211, E422, E322) priment.
 - Au seed, la couche DB **fusionne** additifs ingérés + entrées curatées.
-- Faits 100 % automatisés ; champs éditoriaux = amorces honnêtes à enrichir.
-- Pré-rendu au build limité aux entrées curatées ; les autres fiches sont
-  rendues **à la demande (ISR)** et mises en cache au premier accès.
+- Pré-rendu au build limité aux entrées curatées ; les autres fiches en **ISR**.
+
+## Catégorisation
+
+- `/categories` — hub : par **statut réglementaire** (autorisé / sous conditions /
+  interdit), par **domaine d'usage**, par **état physique**, avec compteurs.
+- `/ingredients?statut=…&domaine=…&forme=…` — annuaire **filtrable par facettes**.
 
 ## Architecture des données (V1.1)
 

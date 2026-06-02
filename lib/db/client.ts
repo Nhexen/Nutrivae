@@ -26,17 +26,17 @@ let db: DatabaseSync | null = null;
 const COLUMNS = [
   "slug", "name", "family", "status", "summary", "plain", "form", "form_label",
   "regulatory_status", "controversy", "aliases", "domains", "tags", "found_in",
-  "contraindications", "definition", "role", "regulation", "compatibility",
-  "science", "refs", "related",
+  "contraindications", "definition", "definition_source", "role", "regulation",
+  "compatibility", "science", "refs", "related",
 ] as const;
 
-function rowValues(i: Ingredient): string[] {
+function rowValues(i: Ingredient): (string | null)[] {
   return [
     i.slug, i.name, i.family, i.status, i.summary, i.plain, i.form, i.formLabel,
     i.regulatoryStatus, i.controversy,
     JSON.stringify(i.aliases), JSON.stringify(i.domains), JSON.stringify(i.tags),
     JSON.stringify(i.foundIn), JSON.stringify(i.contraindications),
-    JSON.stringify(i.definition), JSON.stringify(i.role),
+    JSON.stringify(i.definition), i.definitionSource ?? null, JSON.stringify(i.role),
     JSON.stringify(i.regulation), JSON.stringify(i.compatibility),
     JSON.stringify(i.science), JSON.stringify(i.refs), JSON.stringify(i.related ?? []),
   ];
