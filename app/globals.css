@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: #d7ebe0;
+    color: #0f3d2e;
+  }
+
+  input {
+    caret-color: #10b981;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply text-[0.7rem] font-semibold uppercase tracking-label text-muted;
+  }
+
+  /* Carte de base, coins doux, ombre légère. */
+  .card {
+    @apply rounded-card border border-line bg-surface shadow-card;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
